@@ -1,0 +1,76 @@
+{
+  "welcomeCard": [
+    {
+      "img": "https://www.spruproducts.in/images/icon/h1.png",
+      "title": "Manufacturing",
+      "content": "Our Manufacturing facilities are located at Nawabganj, Barabanki, Uttar Pradesh."
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/h2.png",
+      "title": "Market Presence",
+      "content": "We support the on-field sales team through round-the-clock Marketing and Technical support."
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/h3.png",
+      "title": "R & D",
+      "content": "We have a team of consultants who specialize in various products of the Industry."
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/h4.png",
+      "title": "Contact",
+      "content": "Please feel free to communicate with us 24/7."
+    }
+  ],
+  "chooseCard": [
+    {
+      "img": "https://www.spruproducts.in/images/icon/icon1.png",
+      "title": "Customer Support"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/icon4.png",
+      "title": "Quality"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/icon2.png",
+      "title": "safety & security"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/icon5.png",
+      "title": "networking"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/icon3.png",
+      "title": "customer engagement"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/icon/icon6.png",
+      "title": "delivery"
+    }
+  ],
+  "industryCard": [
+    {
+      "img": "https://www.spruproducts.in/images/our-work/s1.jpg",
+      "title": "Domestic"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/our-work/s2.jpg",
+      "title": "Commercial"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/our-work/s3.jpg",
+      "title": "Industrial"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/our-work/s4.jpg",
+      "title": "House Keeping"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/our-work/s5.jpg",
+      "title": "Government & Corporate"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/our-work/s6.jpg",
+      "title": "Railway & Autombile"
+    }
+  ]
+}
