@@ -97,6 +97,28 @@
       "message": "Kitchen Product range is quite impressive. It will be good option for hotel industry. Highly Recommended..",
       "job": "MMR Enterprises, Lucknow"
     }
+  ],
+  "products": [
+    "Glass Cleaner",
+    "Surface Cleaner",
+    "Floor Cleaner",
+    "Toilet Cleaner",
+    "Green Toilet Cleaner",
+    "Dish Washer",
+    "Room Freshner",
+    "Air Freshner",
+    "Dish Wash Bar",
+    "Syfo Bleach",
+    "Bathroom Cleaner",
+    "White Natheline Ball",
+    "Handwash Liquid",
+    "Black Floor Cleaner",
+    "Syfo Power"
+  ],
+  "heroImages": [
+    "https://www.spruproducts.in/images/main-slider/1.png",
+    "https://www.spruproducts.in/images/main-slider/2.png",
+    "https://www.spruproducts.in/images/main-slider/3.png"
   ]
 }
 
