@@ -18,7 +18,8 @@ export default {
     },
     fontFamily: {
       sans: ["Nunito Sans"],
-      lato: ["Lato"]
+      lato: ["Lato"],
+      rubik: ["Rubik"]
     },
   },
   plugins: [],

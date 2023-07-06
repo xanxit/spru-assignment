@@ -1,4 +1,9 @@
 {
+  "info":{
+    "logo":"https://www.spruproducts.in/images/logo.png",
+  "phone":"(+91) 7355147501",
+  "hours": "10am to 6pm"
+  },
   "welcomeCard": [
     {
       "img": "https://www.spruproducts.in/images/icon/h1.png",
@@ -72,5 +77,26 @@
       "img": "https://www.spruproducts.in/images/our-work/s6.jpg",
       "title": "Railway & Autombile"
     }
+  ],
+  "testCard": [
+    {
+      "img": "https://www.spruproducts.in/images/testimonials/t1.jpg",
+      "name": "Hament Gupta",
+      "message": "I am very happy with Spru Products, they are very friendly    and always ready to take new challenge . We closed several great clients  in Utter Pradesh as well India also.",
+      "job": "GNG Distributors, Sitapur"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/testimonials/t1.jpg",
+      "name": "Dinesh Jaiswal",
+      "message": "I am totally surprise with quality, Amazing Products with best quality. SYFO Toilet Cleaner is superb ... Well Done Spru!",
+      "job": "Jaiswal Trading Company, Maharajganj"
+    },
+    {
+      "img": "https://www.spruproducts.in/images/testimonials/t1.jpg",
+      "name": "Anil Kumar Mathur",
+      "message": "Kitchen Product range is quite impressive. It will be good option for hotel industry. Highly Recommended..",
+      "job": "MMR Enterprises, Lucknow"
+    }
   ]
 }
+
