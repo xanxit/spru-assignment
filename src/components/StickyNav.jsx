@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 
 export default function StickyNav(props) {
-  const navList = [
-    "catalogue",
-    "certificates",
-    "career",
-    "distributor",
-    "gallery",
-    "contact us",
-  ];
 
   const [navActive, setNavActive] = useState(false);
   const handleNavClick = () => {
@@ -71,7 +63,7 @@ export default function StickyNav(props) {
               })}
             </div>
           </div>
-          {navList.map((record, index) => {
+          {(props.navList).map((record, index) => {
             return (
               <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group uppercase" key={index}><div>
             {record}

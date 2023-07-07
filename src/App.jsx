@@ -13,7 +13,6 @@ import Hero from './sections/Hero'
 import Footer from './sections/Footer'
 import ScrollToTop from './components/ScrollToTop'
 
-import Test from './sections/Test'
 export default function App() {
 
   return (
@@ -21,7 +20,7 @@ export default function App() {
       <div className='bg-white'>
         <ScrollToTop/>
         <Topbar data={dataObject.info}/>
-        <StickyNav data={dataObject.products} logo={dataObject.info}/>
+        <StickyNav data={dataObject.products} logo={dataObject.info} navList={dataObject.navList}/>
         <Hero data={dataObject.heroImages}/>
         <Welcome data={dataObject.welcomeCard}/>
         <Choose data={dataObject.chooseCard}/>

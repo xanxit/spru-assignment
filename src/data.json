@@ -152,6 +152,13 @@
     "https://www.spruproducts.in/images/gallery/s5-1.jpg",
     "https://www.spruproducts.in/images/gallery/s6-1.jpg",
     "https://www.spruproducts.in/images/gallery/x7-1.jpg"
+  ],
+  "navList": [
+    "catalogue",
+    "certificates",
+    "career",
+    "distributor",
+    "gallery",
+    "contact us"
   ]
-  
 }
