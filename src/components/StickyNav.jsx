@@ -18,7 +18,7 @@ export default function StickyNav(props) {
 
   return (
     <div className="bg-secondary sticky top-0 text-white z-40">
-      <div className="xs:max-w-[540px] sm:max-w-[720px] lg:max-w-[1200px] md:max-w-[960px] mx-auto px-[15px] flex items-center justify-between relative">
+      <div className="xs:max-w-[540px] sm:max-w-[720px] lg:max-w-[1200px] md:max-w-[960px] mx-auto px-[15px] flex items-center justify-between relative ">
         <div
           className={`md:flex fixed md:relative top-0 md:left-0 -left-[280px] h-[100%]  md:w-full w-[280px] whitespace-nowrap  bg-white md:bg-transparent text-black md:text-inherit ${
             navActive ? " translate-x-[280px]" : ""
@@ -40,7 +40,7 @@ export default function StickyNav(props) {
               <div>OUR COMPANY</div>
               <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
             </div>
-            <ul className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible md:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md ">
+            <ul className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible md:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md cursor-pointer">
               <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
                 About
               </li>
@@ -63,7 +63,7 @@ export default function StickyNav(props) {
                 return (
                   <div
                     key={index}
-                    className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]"
+                    className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400] cursor-pointer"
                   >
                     {record}
                   </div>
@@ -84,10 +84,11 @@ export default function StickyNav(props) {
         <div className="visible md:hidden h-[56px] w-[160px] flex justify-center items-center">
           <img src={props.logo.logo} alt="" />
         </div>
-        <div className="visible md:hidden">
+        <div className="visible md:hidden relative z-40">
           <span onClick={handleNavClick}>burgir</span>
         </div>
       </div>
+      <div className={`absolute h-[100vh] w-[100vw] inset-0 bg-black/30 z-20 ${navActive? 'visible': 'hidden'}`}></div>
     </div>
   );
 }

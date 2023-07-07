@@ -16,7 +16,7 @@ export default function Footer(props) {
               <h1 className="text-emerald-50 font-[700] leading-[22px] text-[18px] font-sans">QUICK LINKS</h1>
               <div className="mt-[15px] mb-[30px] w-[50px] h-[4px] bg-backg" />
               <div>
-                <ul className="text-emerald-200 font-[400] leading-[22px] text-[15px] font-lato mb-[25px] sm:mb-[40px]">
+                <ul className="text-emerald-200 font-[400] leading-[22px] text-[15px] font-lato mb-[25px] sm:mb-[40px] cursor-pointer">
                   {props.data.links.map((record, index) => {
                     return (
                       <li key={index} className="">
@@ -51,7 +51,7 @@ export default function Footer(props) {
       <div className="w-full  bg-secondary text-emerald-200 border-white/[0.2] border-t-[1px]">
         <div className="flex flex-col sm:flex-row flex-wrap xs:max-w-[540px] sm:max-w-[720px] md:max-w-[960px] lg:max-w-[1200px] mx-auto text-[14px] py-[25px] font-lato font-[400]">
         <div className="px-[15px] py-[5px] sm:py-[0px] text-left sm:max-w-[33.3%] grow">© Copyright 2020 SPRU Products</div>
-        <div className="px-[15px] py-[5px] sm:py-[0px] text-center sm:max-w-[33.3%] grow">Design by AKSHAT</div>
+        <div className="px-[15px] py-[5px] sm:py-[0px] text-center sm:max-w-[33.3%] grow cursor-pointer">Design by AKSHAT</div>
         <ul className="flex px-[15px] py-[5px] sm:py-[0px] justify-end sm:max-w-[33.3%] grow text-[15px] font-lato leading-6">
           <li className="pl-[15px]">About</li>
           <li className="pl-[15px]">Help Desk</li>

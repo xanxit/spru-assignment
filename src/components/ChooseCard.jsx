@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ChooseCard({ img, title }) {
   return (
-    <div className="bg-white text-center rounded-[6px] px-[10px] py-[30px] hover:-translate-y-4  transition-all duration-300 relative drop-shadow-md group overflow-hidden ">
+    <div className="bg-white text-center rounded-[6px] px-[10px] py-[30px] hover:-translate-y-4  transition-all duration-300 relative drop-shadow-md group overflow-hidden cursor-pointer">
       <div>
         <div
           id="imgContainer"
