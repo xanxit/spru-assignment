@@ -19,7 +19,7 @@ export default function ChooseCard({ img, title }) {
           </h4>
         </div>
       </div>
-      <div className="absolute left-0 bottom-[-100%] h-full w-full rounded-t-full bg-gradient-to-t from-emerald-800 to-teal-600 group-hover:rounded-none group-hover:-translate-y-full transition-all duration-500 ease-out"></div>
+      <div className="absolute left-0 bottom-[-100%] h-full w-full rounded-t-full bg-gradient-to-t from-primary to-backg group-hover:rounded-none group-hover:-translate-y-full transition-all duration-500 ease-out"></div>
     </div>
   );
 }

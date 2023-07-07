@@ -4,7 +4,7 @@ import ChooseCard from '../components/ChooseCard'
 export default function Choose(props) {
   return (
     <div className='relative bg-industryParallax bg-cover bg-fixed'>
-      <div className='w-full bg-gradient-to-br from-blue-600/90 to-blue-300/90'>
+      <div className='w-full bg-gradient-to-br from-primary/90 to-secondary/90'>
       <div className='pt-[30px] sm:pt-[70px] text-center px-[15px] text-white xs:max-w-[540px] sm:max-w-[720px] md:max-w-[960px] lg:max-w-[1200px] mx-auto' >
         <h1 className='mb-[39px] text-[38px] sm:text-[28px] font-[700] leading-[38px]'>Why Choose Us</h1>
         <p className='mb-[24px] sm:mb-[50px] sm:pt-[10px] max-w-[700px] mx-auto'>We are Manufacturing Cleaning Chemicals For Commercials, Industrials, Hotels, Hospitals, Institutions, Theaters, Shopping malls, Offices, NGOs..</p>

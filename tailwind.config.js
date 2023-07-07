@@ -34,6 +34,11 @@ export default {
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
+      colors: {
+        primary: '#357960',
+        secondary: '#003e29',
+        backg: '#92A143'
+      },
     },
   },
   plugins: [],

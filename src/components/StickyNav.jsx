@@ -17,7 +17,7 @@ export default function StickyNav(props) {
   };
 
   return (
-    <div className="bg-[#072d5a] sticky top-0 text-white z-40">
+    <div className="bg-secondary sticky top-0 text-white z-40">
       <div className="xs:max-w-[540px] sm:max-w-[720px] lg:max-w-[1200px] md:max-w-[960px] mx-auto px-[15px] flex items-center justify-between relative">
         <div
           className={`md:flex fixed md:relative top-0 md:left-0 -left-[280px] h-[100%]  md:w-full w-[280px] whitespace-nowrap  bg-white md:bg-transparent text-black md:text-inherit ${
