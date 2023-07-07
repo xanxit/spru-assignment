@@ -11,18 +11,20 @@ import Topbar from './sections/Topbar'
 import StickyNav from './components/StickyNav'
 import Hero from './sections/Hero'
 import Footer from './sections/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
 
   return (
     <>
       <div className='bg-white'>
+        <ScrollToTop/>
         <Topbar data={dataObject.info}/>
         <StickyNav data={dataObject.products} logo={dataObject.info}/>
         <Hero data={dataObject.heroImages}/>
         <Welcome data={dataObject.welcomeCard}/>
         <Choose data={dataObject.chooseCard}/>
-        
+        <Products data={dataObject.productImages}/>
         <Industry data={dataObject.industryCard}/>
         <Testimonials data={dataObject.testCard}/>
         <Footer data={dataObject}/>
