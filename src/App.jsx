@@ -10,6 +10,7 @@ import Testimonials from './sections/Testimonials'
 import Topbar from './sections/Topbar'
 import StickyNav from './components/StickyNav'
 import Hero from './sections/Hero'
+import Footer from './sections/Footer'
 
 export default function App() {
 
@@ -24,6 +25,7 @@ export default function App() {
         
         <Industry data={dataObject.industryCard}/>
         <Testimonials data={dataObject.testCard}/>
+        <Footer data={dataObject}/>
       </div>
     </>
   )

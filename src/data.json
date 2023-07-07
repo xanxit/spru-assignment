@@ -1,8 +1,12 @@
 {
-  "info":{
-    "logo":"https://www.spruproducts.in/images/logo.png",
-  "phone":"(+91) 7355147501",
-  "hours": "10am to 6pm"
+  "info": {
+    "logo": "https://www.spruproducts.in/images/logo.png",
+    "phone": "(+91) 7355147501",
+    "hours": "10am to 6pm",
+    "about": "Spru Products is one of the reliable Manufacturers, Exporters, and Suppliers of many items. We are an ISO 9001-2008 certified company. Our product range comprises of House Cleaning Chemicals, Autocare Products, and Laundry Products. We deliver good quality products at low cost. That is why our customers trust us and this helps us to create a long-term relationship with our customers.",
+    "address": "1st Floor, Ories Tower Plot No.- 6, Opp. New High Court Faizabad Road, Lucknow",
+    "email": "info@spruproducts.in"
+
   },
   "welcomeCard": [
     {
@@ -115,10 +119,20 @@
     "Black Floor Cleaner",
     "Syfo Power"
   ],
+  "links": [
+    "About",
+    "Vision & Mission",
+    "Guiding Principles",
+    "Catalogue",
+    "Certificates",
+    "Career",
+    "Distributor",
+    "Gallery",
+    "Contact us"
+  ],
   "heroImages": [
     "https://www.spruproducts.in/images/main-slider/1.png",
     "https://www.spruproducts.in/images/main-slider/2.png",
     "https://www.spruproducts.in/images/main-slider/3.png"
   ]
 }
-
