@@ -3,7 +3,7 @@ import IndustryCard from '../components/IndustryCard'
 
 export default function Industry(props) {
   return (
-    <div className='w-full pb-[50px] pt-[30px] text-white bg-green-200'>
+    <div className='w-full pb-[50px] pt-[30px] text-white bg-gradient-to-br from-blue-600 to-blue-300'>
         <div className='px-[15px] text-center sm:max-w-[720px] md:max-w-[960px] mx-auto'>
         <h1 className='text-[28px] mb-[29px] leading-[38px] font-[700]'>INDUSTRIES WE SERVE</h1>
         <p className='max-w-[700px] leading-[24px] text-[16px] mb-[24px] font-lato mx-auto'>We are happy to announce to you that we are providing services to a different kind of sectors from government to non-government, NGO’S, corporate company’s & central government also...</p>

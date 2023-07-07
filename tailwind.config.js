@@ -21,6 +21,9 @@ export default {
       lato: ["Lato"],
       rubik: ["Rubik"]
     },
+    backgroundImage: {
+      'industryParallax': 'url("https://www.spruproducts.in/images/background/bg2.jpg")' 
+    }
   },
   plugins: [],
 }

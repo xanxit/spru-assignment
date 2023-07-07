@@ -10,7 +10,7 @@ export default function StickyNav(props) {
     "contact us",
   ];
   return (
-    <div className="bg-[#072d5a] sticky top-0 text-white z-50">
+    <div className="bg-[#072d5a] sticky top-0 text-white z-40">
       <div className="lg:max-w-[1200px] md:max-w-[960px] mx-auto px-[15px]">
         <div className="flex whitespace-nowrap"  style={{ flexWrap: 'wrap' }}>
           <div className="font-[500] font-rubik text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer hover:border-b-[3px] hover:border-yellow-500" >HOME</div>
