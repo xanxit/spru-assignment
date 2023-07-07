@@ -13,11 +13,13 @@ import Hero from './sections/Hero'
 import Footer from './sections/Footer'
 import ScrollToTop from './components/ScrollToTop'
 
+import Test from './sections/Test'
 export default function App() {
 
   return (
     <>
       <div className='bg-white'>
+        <Test/>
         <ScrollToTop/>
         <Topbar data={dataObject.info}/>
         <StickyNav data={dataObject.products} logo={dataObject.info}/>
