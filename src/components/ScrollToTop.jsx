@@ -25,6 +25,8 @@ export default function ScrollToTop() {
           });
     }
   return (
-    <div className={`fixed rounded-full h-[40px] w-[40px] bottom-[15px] right-[15px] z-50 bg-slate-300 border-emerald-700 border-2 shadow-lg transition-all duration-200 ${visible?' opacity-100':' opacity-0'}`} onClick={handleScrollToTop}></div>
+    <div className={`fixed rounded-full h-[40px] w-[40px] bottom-[15px] right-[15px] z-50 bg-slate-300 border-emerald-700 border-2 shadow-lg transition-all duration-200 ${visible?' opacity-100':' opacity-0'}`} onClick={handleScrollToTop}>
+      <img src="https://cdn.icon-icons.com/icons2/1674/PNG/512/arrowupward_111161.png" alt="" />
+    </div>
   )
 }

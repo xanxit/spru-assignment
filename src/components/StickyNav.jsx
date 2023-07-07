@@ -85,7 +85,9 @@ export default function StickyNav(props) {
           <img src={props.logo.logo} alt="" />
         </div>
         <div className="visible md:hidden relative z-40">
-          <span onClick={handleNavClick}>burgir</span>
+          <span onClick={handleNavClick}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="" className="h-[25px] w-auto"/>
+          </span>
         </div>
       </div>
       <div className={`absolute h-[100vh] w-[100vw] inset-0 bg-black/30 z-20 ${navActive? 'visible': 'hidden'}`}></div>

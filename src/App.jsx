@@ -19,7 +19,6 @@ export default function App() {
   return (
     <>
       <div className='bg-white'>
-        <Test/>
         <ScrollToTop/>
         <Topbar data={dataObject.info}/>
         <StickyNav data={dataObject.products} logo={dataObject.info}/>
