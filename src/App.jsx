@@ -18,7 +18,7 @@ export default function App() {
     <>
       <div className='bg-white'>
         <Topbar data={dataObject.info}/>
-        <StickyNav data={dataObject.products}/>
+        <StickyNav data={dataObject.products} logo={dataObject.info}/>
         <Hero data={dataObject.heroImages}/>
         <Welcome data={dataObject.welcomeCard}/>
         <Choose data={dataObject.chooseCard}/>
