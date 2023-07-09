@@ -14,7 +14,7 @@ export default function Products(props) {
         behavior: (c==15?'instant':'smooth'),
       });
       c==15?c=0:c++;
-    }, 4000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []); //when it loops back wait is too long use setInterval instead

@@ -11,7 +11,7 @@ export default function Hero(props) {
         behavior: (c==3?'instant':'smooth'),
       });
       c==3?c=0:c++;
-    }, 5000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []); //when it loops back wait is too long use setInterval instead

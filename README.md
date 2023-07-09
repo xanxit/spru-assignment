@@ -6,9 +6,10 @@ Highly responsive website made with react and tailwind css
 
 ## Features
 
-
+- Pixel perfect clone of the reference - www.spruproducts.in/index.php
 - No extra libraries used, all components are created with vanilla jsx
 - Responsive on all four screen sizes ( xs:576px sm:768px md:992px lg:1200px)
+
 ## Color Reference
 
 Mainly uses different shades of emerald and some custom colors
