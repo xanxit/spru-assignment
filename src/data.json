@@ -6,7 +6,6 @@
     "about": "Spru Products is one of the reliable Manufacturers, Exporters, and Suppliers of many items. We are an ISO 9001-2008 certified company. Our product range comprises of House Cleaning Chemicals, Autocare Products, and Laundry Products. We deliver good quality products at low cost. That is why our customers trust us and this helps us to create a long-term relationship with our customers.",
     "address": "1st Floor, Ories Tower Plot No.- 6, Opp. New High Court Faizabad Road, Lucknow",
     "email": "info@spruproducts.in"
-
   },
   "welcomeCard": [
     {
@@ -161,8 +160,30 @@
     "gallery",
     "contact us"
   ],
-  "page_aboutUs": {
-    "title": "About Us"
-
+  "ourCompany": {
+    "page_aboutUs": {
+      "title": "About Us",
+      "img": "https://www.spruproducts.in/images/about.jpg",
+      "sections": [
+        {
+          "heading": "Our Manufacturing Unit",
+          "para": "We have a huge and well-structured manufacturing unit, which helps us in completing the tasks of producing Eco Series House Cleaning Produccts and chemicals within a stipulated timeframe. It is equipped with technologically advanced machinery that are upgraded as per latest industrial trends."
+        },
+        {
+          "heading": "Our Warehousing Structure",
+          "para": "We have a huge warehousing structure that helps us in storing the toilet cleaners safely until they are approved for transportation to our customers. Our warehouse keepers maintain a suitable temperature at our warehouse."
+        },
+        {
+          "heading": "Why Choose Us?",
+          "para": "Customers have trusted us with our products owing to the high quality of the products. Some major factors behind our success are: Eco Friendly Products • Wide distribution network • Capacious warehouse • Competitive prices • Well-structured infrastructure"
+        }
+      ]
+    },
+    "page_principles": {
+      "title": "Principles"
+    },
+    "page_vision": {
+      "title": "Vision"
+    }
   }
 }

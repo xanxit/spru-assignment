@@ -1,7 +1,10 @@
 import React from 'react'
+import PageHeader from '../../components/PageHeader'
 
-export default function Principles() {
+export default function Principles({page_principles}) {
   return (
-    <div>Principles</div>
+    <div>
+      <PageHeader {...page_principles}/>
+    </div>
   )
 }

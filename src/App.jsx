@@ -24,9 +24,9 @@ export default function App() {
         <StickyNav data={dataObject.products} logo={dataObject.info} navList={dataObject.navList}/>
         <Routes>
           <Route path='/spru-assignment' element={<Home dataObject={dataObject}/>}></Route>
-          <Route path='/spru-assignment/about' element={<About dataObject={dataObject}/>}></Route>
-          <Route path='/spru-assignment/vision' element={<Vision dataObject={dataObject}/>}></Route>
-          <Route path='/spru-assignment/principles' element={<Principles dataObject={dataObject}/>}></Route>
+          <Route path='/spru-assignment/about' element={<About {...dataObject.ourCompany}/>}></Route>
+          <Route path='/spru-assignment/vision' element={<Vision {...dataObject.ourCompany}/>}></Route>
+          <Route path='/spru-assignment/principles' element={<Principles {...dataObject.ourCompany}/>}></Route>
           <Route path='/spru-assignment/catalogue' element={<Catalogue dataObject={dataObject}/>}></Route>
         </Routes>
         <Footer dataObject={dataObject}/>
