@@ -12,7 +12,7 @@ export default function Catalogue({ title, images, pdfContent }) {
           <div>
             <div className="flex flex-row gap-[30px] mb-[50px]">
               {pdfContent.map((pdf, index) => {
-                return <PdfView {...pdf} className="w-[25%]" />;
+                return <PdfView {...pdf} className="w-[25%]" key={index}/>;
               })}
             </div>
           </div>

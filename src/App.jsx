@@ -17,13 +17,14 @@ import Footer from './sections/Footer'
 import Catalogue from './pages/Catalogue';
 import Certificates from './pages/Certificates';
 import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
     <>
       <Router>
       <Topbar data={dataObject.info}/>
-        <StickyNav data={dataObject.products} logo={dataObject.info} navList={dataObject.navList}/>
+        <StickyNav data={dataObject.products} logo={dataObject.info} links={dataObject.links}/>
         <Routes>
           <Route path='/spru-assignment' element={<Home dataObject={dataObject}/>}/>
           <Route path='/spru-assignment/about' element={<About {...dataObject.ourCompany}/>}/>
@@ -32,6 +33,7 @@ export default function App() {
           <Route path='/spru-assignment/catalogue' element={<Catalogue {...dataObject.catalogue}/>}/>
           <Route path='/spru-assignment/certificates' element={<Certificates {...dataObject.certificates}/>}/>
           <Route path='/spru-assignment/gallery' element={<Gallery {...dataObject.gallery}/>}/>
+          <Route path='/spru-assignment/contact' element={<Contact {...dataObject.contact}/>}/>
         </Routes>
         <Footer dataObject={dataObject}/>
       </Router>
