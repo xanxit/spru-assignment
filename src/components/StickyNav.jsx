@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function StickyNav(props) {
 
@@ -23,25 +24,33 @@ export default function StickyNav(props) {
             </div>
           </div>
 
+          <Link to="/spru-assignment">
           <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
             <div>HOME</div>
             <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
           </div>
+          </Link>
           <div className="relative group">
             <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
               <div>OUR COMPANY</div>
               <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
             </div>
             <ul className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible md:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md cursor-pointer">
+              <Link to="/spru-assignment/about">
               <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
                 About
               </li>
+              </Link>
+              <Link to="/spru-assignment/vision">
               <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
                 Vision & Mission
               </li>
-              <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
+              </Link>
+             <Link to="/spru-assignment/principles">
+             <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
                 Guiding Principles
               </li>
+             </Link>
             </ul>
           </div>
           <div className="relative group">

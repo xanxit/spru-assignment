@@ -2,33 +2,34 @@ import React from 'react'
 
 import dataObject from './data.json'
 
-import Welcome from './sections/Welcome'
-import Choose from './sections/Choose'
-import Products from './sections/Products'
-import Industry from './sections/Industry'
-import Testimonials from './sections/Testimonials'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from './pages/Home';
 import Topbar from './sections/Topbar'
 import StickyNav from './components/StickyNav'
-import Hero from './sections/Hero'
+import About from './pages/Company/About';
+import Principles from './pages/Company/Principles';
+import Vision from './pages/Company/Vision';
 import Footer from './sections/Footer'
-import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
-
   return (
     <>
-      <div className='bg-white'>
-        <ScrollToTop/>
-        <Topbar data={dataObject.info}/>
+      <Router>
+      <Topbar data={dataObject.info}/>
         <StickyNav data={dataObject.products} logo={dataObject.info} navList={dataObject.navList}/>
-        <Hero data={dataObject.heroImages}/>
-        <Welcome data={dataObject.welcomeCard}/>
-        <Choose data={dataObject.chooseCard}/>
-        <Products data={dataObject.productImages}/>
-        <Industry data={dataObject.industryCard}/>
-        <Testimonials data={dataObject.testCard}/>
-        <Footer data={dataObject}/>
-      </div>
+        <Routes>
+          <Route path='/spru-assignment' element={<Home dataObject={dataObject}/>}></Route>
+          <Route path='/spru-assignment/about' element={<About dataObject={dataObject}/>}></Route>
+          <Route path='/spru-assignment/vision' element={<Vision dataObject={dataObject}/>}></Route>
+          <Route path='/spru-assignment/principles' element={<Principles dataObject={dataObject}/>}></Route>
+
+        </Routes>
+        <Footer dataObject={dataObject}/>
+      </Router>
     </>
   )
 }
