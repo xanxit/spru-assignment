@@ -23,7 +23,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'industryParallax': 'url("https://www.spruproducts.in/images/background/bg2.jpg")' 
+        'industryParallax': 'url("https://www.spruproducts.in/images/background/bg2.jpg")', 
+        'pageHeader': 'url("https://www.spruproducts.in/images/main-slider/3.png")'
       },
       keyframes: {
         wiggle: {

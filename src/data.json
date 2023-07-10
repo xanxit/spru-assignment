@@ -160,5 +160,9 @@
     "distributor",
     "gallery",
     "contact us"
-  ]
+  ],
+  "page_aboutUs": {
+    "title": "About Us"
+
+  }
 }
