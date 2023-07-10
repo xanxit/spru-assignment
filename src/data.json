@@ -306,5 +306,18 @@
         "link": "https://www.spruproducts.in/files/SYFO-MSDS-BLEACH.pdf"
       }
     ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "images": [
+      "https://www.spruproducts.in/images/gallery/g-1.jpg",
+      "https://www.spruproducts.in/images/gallery/g-2.jpg",
+      "https://www.spruproducts.in/images/gallery/g-3.jpg",
+      "https://www.spruproducts.in/images/gallery/g-4.jpg",
+      "https://www.spruproducts.in/images/gallery/g-5.jpg",
+      "https://www.spruproducts.in/images/gallery/g-6.jpg",
+      "https://www.spruproducts.in/images/gallery/g-7.jpg",
+      "https://www.spruproducts.in/images/gallery/g-8.jpg"
+    ]
   }
 }
