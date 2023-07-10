@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer({dataObject}) {
   return (
@@ -19,9 +20,11 @@ export default function Footer({dataObject}) {
                 <ul className="text-emerald-200 font-[400] leading-[22px] text-[15px] font-lato mb-[25px] sm:mb-[40px] cursor-pointer">
                   {dataObject.links.map((record, index) => {
                     return (
-                      <li key={index} className="">
-                        {record}
+                      <Link to={"/spru-assignment/"+record.link} key={index}>
+                      <li className="">
+                        {record.text}
                       </li>
+                      </Link>
                     );
                   })}
                 </ul>

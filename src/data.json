@@ -119,15 +119,42 @@
     "Syfo Power"
   ],
   "links": [
-    "About",
-    "Vision & Mission",
-    "Guiding Principles",
-    "Catalogue",
-    "Certificates",
-    "Career",
-    "Distributor",
-    "Gallery",
-    "Contact us"
+    {
+      "text": "About",
+      "link": "about"
+    },
+    {
+      "text": "Vision & Mission",
+      "link": "vision"
+    },
+    {
+      "text": "Guiding Principles",
+      "link": "principles"
+    },
+    {
+      "text": "Catalogues",
+      "link": "catalogue"
+    },
+    {
+      "text": "Certificates",
+      "link": "certificates"
+    },
+    {
+      "text": "Career",
+      "link": "career"
+    },
+    {
+      "text": "Distributor",
+      "link": "distributor"
+    },
+    {
+      "text": "Gallery",
+      "link": "gallery"
+    },
+    {
+      "text": "Contact Us",
+      "link": "contact"
+    }
   ],
   "heroImages": [
     "https://www.spruproducts.in/images/main-slider/1.png",
