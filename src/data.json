@@ -180,10 +180,48 @@
       ]
     },
     "page_principles": {
-      "title": "Principles"
+      "title": "Principles",
+      "img": "https://www.spruproducts.in/images/guiding.jpg",
+      "sections": [
+        {
+          "heading": "Trust",
+          "para":"We are honest and direct in our dealings and always act with transparency. We say what we mean, mean what we say and always keep our promises. Trust is at the very core of everything we do. If people trust us, they want to be associated with us. It is that simple."
+        },
+        {
+          "heading": "Respect",
+          "para": "We respect our team members, stakeholders, heritage and universe. Because it is a shared journey, we always seek a win-win outcome."
+        },
+        {
+          "heading": "Commitment",
+          "para": "We are committed to being sustainable over long term through focus and depth in everything we do."
+        },
+        {
+          "heading": "Courage",
+          "para": "We want to surround ourselves with bold thinkers and to always act with conviction."
+        },
+        {
+          "heading": "Humility",
+          "para": "We endeavor to keep learning and letting our actions speak louder than our words. We also appreciate that everyone we interact with has a contribution to make to our well-being."
+        }
+      ]
     },
     "page_vision": {
-      "title": "Vision"
+      "title": "Vision",
+      "img": "https://www.spruproducts.in/images/vision.jpg",
+      "sections": [
+        {
+          "heading": "VISION",
+          "para": "To make every Indian household daily user of SYFO"
+        },
+        {
+          "heading": "MISSION",
+          "para": "To create a place for SYFO in Indian House Cleaning Products and hygiene solution"
+        },
+        {
+          "heading": "VALUES",
+          "para": "The SYFO Family culture guided by our vision statement. We believe in making the wellbeing and satisfaction of our customers the basis of every decision for the business and the product. The quality of our products and the loyalty of our customers are a testimony to the above statement."
+        }
+      ]
     }
   }
 }

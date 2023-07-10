@@ -11,7 +11,7 @@ export default function About({ page_aboutUs }) {
             <div className="p-[15px]">
               <img src={page_aboutUs.img} alt="" />
             </div>
-            <div className="text-justify p-[15px] text-[16p] font-lato font-[400]">
+            <div className="text-justify p-[15px] text-[16px] font-lato font-[400]">
               <p>
                 SYFO division of SPRU PRODUCTS PRIVATE LIMITED aims to
                 significantly impact the availability of hygiene and sanitation
