@@ -160,6 +160,22 @@
     "gallery",
     "contact us"
   ],
+  "pdfContent": {
+    "catalogue": [
+      {
+        "img": "https://www.spruproducts.in/images/gallery/gg-1.jpg",
+        "link": "https://www.spruproducts.in/images/gallery/1.pdf"
+      },
+      {
+        "img": "https://www.spruproducts.in/images/gallery/gg-2.jpg",
+        "link": "https://www.spruproducts.in/images/gallery/2.pdf"
+      }
+    ],
+    "certificates": {
+      "img": "https://www.spruproducts.in/images/gallery/cert-1.jpg",
+      "link": "https://www.spruproducts.in/images/gallery/SYFO.pdf"
+    }
+  },
   "ourCompany": {
     "page_aboutUs": {
       "title": "About Us",
@@ -185,7 +201,7 @@
       "sections": [
         {
           "heading": "Trust",
-          "para":"We are honest and direct in our dealings and always act with transparency. We say what we mean, mean what we say and always keep our promises. Trust is at the very core of everything we do. If people trust us, they want to be associated with us. It is that simple."
+          "para": "We are honest and direct in our dealings and always act with transparency. We say what we mean, mean what we say and always keep our promises. Trust is at the very core of everything we do. If people trust us, they want to be associated with us. It is that simple."
         },
         {
           "heading": "Respect",
@@ -223,5 +239,35 @@
         }
       ]
     }
+  },
+  "catalogue": {
+    "title": "Catalogue",
+    "images": [
+      "https://www.spruproducts.in/images/gallery/cate-1.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-2.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-3.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-4.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-5.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-6.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-7.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-8.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-9.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-10.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-11.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-12.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-13.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-14.jpg",
+      "https://www.spruproducts.in/images/gallery/cate-15.jpg"
+    ],
+    "pdfContent": [
+      {
+        "img": "https://www.spruproducts.in/images/gallery/gg-1.jpg",
+        "link": "https://www.spruproducts.in/images/gallery/1.pdf"
+      },
+      {
+        "img": "https://www.spruproducts.in/images/gallery/gg-2.jpg",
+        "link": "https://www.spruproducts.in/images/gallery/2.pdf"
+      }
+    ]
   }
 }

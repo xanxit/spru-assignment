@@ -27,7 +27,7 @@ export default function App() {
           <Route path='/spru-assignment/about' element={<About {...dataObject.ourCompany}/>}></Route>
           <Route path='/spru-assignment/vision' element={<Vision {...dataObject.ourCompany}/>}></Route>
           <Route path='/spru-assignment/principles' element={<Principles {...dataObject.ourCompany}/>}></Route>
-          <Route path='/spru-assignment/catalogue' element={<Catalogue dataObject={dataObject}/>}></Route>
+          <Route path='/spru-assignment/catalogue' element={<Catalogue {...dataObject.catalogue}/>}/>
         </Routes>
         <Footer dataObject={dataObject}/>
       </Router>

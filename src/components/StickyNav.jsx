@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function StickyNav(props) {
-
   const [navActive, setNavActive] = useState(false);
   const handleNavClick = () => {
     console.log("clicked menu icon");
@@ -25,10 +24,10 @@ export default function StickyNav(props) {
           </div>
 
           <Link to="/spru-assignment">
-          <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
-            <div>HOME</div>
-            <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
-          </div>
+            <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
+              <div>HOME</div>
+              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+            </div>
           </Link>
           <div className="relative group">
             <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
@@ -37,28 +36,27 @@ export default function StickyNav(props) {
             </div>
             <ul className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible md:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md cursor-pointer">
               <Link to="/spru-assignment/about">
-              <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
-                About
-              </li>
+                <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
+                  About
+                </li>
               </Link>
               <Link to="/spru-assignment/vision">
-              <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
-                Vision & Mission
-              </li>
+                <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
+                  Vision & Mission
+                </li>
               </Link>
-             <Link to="/spru-assignment/principles">
-             <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
-                Guiding Principles
-              </li>
-             </Link>
+              <Link to="/spru-assignment/principles">
+                <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
+                  Guiding Principles
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="relative group">
-          <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group" ><div>
-            PRODUCTS
-          </div>
-          <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
-          </div>
+            <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
+              <div>PRODUCTS</div>
+              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+            </div>
             <div className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible md:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md">
               {props.data.map((record, index) => {
                 return (
@@ -72,13 +70,17 @@ export default function StickyNav(props) {
               })}
             </div>
           </div>
-          {(props.navList).map((record, index) => {
+          {props.navList.map((record, index) => {
             return (
-              <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group uppercase" key={index}><div>
-            {record}
-          </div>
-          <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
-          </div>
+              <Link to="spru-assignment/catalogue">
+                <div
+                className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group uppercase"
+                key={index}
+              >
+                <div>{record}</div>
+                <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+              </div>
+              </Link>
             );
           })}
         </div>
@@ -87,11 +89,19 @@ export default function StickyNav(props) {
         </div>
         <div className="visible md:hidden relative z-40">
           <span onClick={handleNavClick}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="" className="h-[25px] w-auto"/>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png"
+              alt=""
+              className="h-[25px] w-auto"
+            />
           </span>
         </div>
       </div>
-      <div className={`absolute h-[100vh] w-[100vw] inset-0 bg-black/30 z-20 ${navActive? 'visible': 'hidden'}`}></div>
+      <div
+        className={`absolute h-[100vh] w-[100vw] inset-0 bg-black/30 z-20 ${
+          navActive ? "visible" : "hidden"
+        }`}
+      ></div>
     </div>
   );
 }
