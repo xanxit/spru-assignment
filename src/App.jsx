@@ -15,6 +15,7 @@ import Principles from './pages/Company/Principles';
 import Vision from './pages/Company/Vision';
 import Footer from './sections/Footer'
 import Catalogue from './pages/Catalogue';
+import Certificates from './pages/Certificates';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Route path='/spru-assignment/vision' element={<Vision {...dataObject.ourCompany}/>}></Route>
           <Route path='/spru-assignment/principles' element={<Principles {...dataObject.ourCompany}/>}></Route>
           <Route path='/spru-assignment/catalogue' element={<Catalogue {...dataObject.catalogue}/>}/>
+          <Route path='/spru-assignment/certificates' element={<Certificates {...dataObject.certificates}/>}/>
         </Routes>
         <Footer dataObject={dataObject}/>
       </Router>

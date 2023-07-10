@@ -72,7 +72,7 @@ export default function StickyNav(props) {
           </div>
           {props.navList.map((record, index) => {
             return (
-              <Link to="spru-assignment/catalogue">
+              <Link to={`spru-assignment/${record}`}>
                 <div
                 className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group uppercase"
                 key={index}

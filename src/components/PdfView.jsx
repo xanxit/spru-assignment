@@ -11,7 +11,8 @@ export default function PdfView({img, link}) {
             <div className='absolute inset-0 w-full h-full bg-black opacity-0 group-hover:opacity-50 transition-all duration-200'/>
             </div>
             <div className='p-[10px] flex items-center justify-center text-blue-700'>
-                Download PDF    
+                <a href={link} target='_blank'>
+                Download PDF</a>    
             </div>
             
         </div>
