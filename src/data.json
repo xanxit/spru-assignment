@@ -535,5 +535,15 @@
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": ["https://www.spruproducts.in/images/gallery/s15-1.jpg"]
     }
-  }
+  },
+  "forms": {
+    "career": "Send Us Your Resume",
+    "distributor": "Apply For Distributor",
+    "contact": "Send Us A Message"
+  },
+  "listings": [
+    "Marketing Person",
+    "Supervisor Person",
+    "Product Demo Representative"
+  ]
 }

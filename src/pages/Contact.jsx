@@ -1,7 +1,10 @@
 import React from 'react'
+import Form from '../components/Form'
 
-export default function Contact() {
+export default function Contact({forms, info}) {
   return (
-    <div></div>
+    <div>
+      <Form title={forms.contact} {...info}/>
+    </div>
   )
 }
