@@ -101,23 +101,6 @@
       "job": "MMR Enterprises, Lucknow"
     }
   ],
-  "products": [
-    "Glass Cleaner",
-    "Surface Cleaner",
-    "Floor Cleaner",
-    "Toilet Cleaner",
-    "Green Toilet Cleaner",
-    "Dish Washer",
-    "Room Freshner",
-    "Air Freshner",
-    "Dish Wash Bar",
-    "Syfo Bleach",
-    "Bathroom Cleaner",
-    "White Natheline Ball",
-    "Handwash Liquid",
-    "Black Floor Cleaner",
-    "Syfo Power"
-  ],
   "links": [
     {
       "text": "About",
@@ -391,9 +374,13 @@
     },
     "green": {
       "title": "Green Toilet Cleaner",
-      "desc": "Green Toilet Cleaner",
-      "benefit": [],
-      "availability": [],
+      "desc": "You will get a huge range of best quality Toilet Cleaners here at Spru Products Pvt. Ltd. These are formulated for cleaning toilet seats and floors. In addition to this, the said products are widely found in residential and commercial places. Our offered liquids perfectly clean the floors and keep the surrounding free from germs, viruses, bacteria for the prevention of unwanted infections. These Toilet Cleaners are available in different sizes of plastic containers. Furthermore, the offered liquids have high cleaning abilities and anti-bacterial properties. These are accustomed with accurate composition, maximum reliability, thick consistency, and optimum service.",
+      "benefit": [
+        "Fast action cleaner for your toilet.",
+        "The anti-bacterial formula helps remove stains and residues of biological debris.",
+        "Disinfects as it cleans and leaves freshness after application."
+      ],
+      "availability": ["250ML", "500 ML"],
       "image": [
         "https://www.spruproducts.in/images/gallery/s5-1.jpg",
         "https://www.spruproducts.in/images/gallery/s5-2.jpg"
@@ -433,9 +420,15 @@
     },
     "airfreshner": {
       "title": "Air Freshner",
-      "desc": "Syfo Power",
-      "benefit": [],
-      "availability": [],
+      "desc": "Go through our wide range of Room Freshener, manufactured using high-grade material and upgraded technology by our skilled workers. This freshener is mainly used in homes or commercial interiors such as restrooms, hallways, lobbies, and other areas too. This freshener is a product that is designed for removing unpleasant odours from the living areas. This product basically delivers fragrance into the air and gives an awesome feeling. Air Freshener is mostly preferred for its beautiful fragrance which lasts for a longer time and makes your area fresh.",
+      "benefit": [
+        "Excellent Quality",
+        "Exotic Fragrances",
+        "Long Lasting Attire",
+        "Various Packaging Sizes",
+        "Suitable for Room, Car, Lobby etc."
+      ],
+      "availability": ["250ML", "500 ML"],
       "image": ["https://www.spruproducts.in/images/gallery/s14-1.jpg"]
     },
     "dish_wash_bar": {
@@ -498,14 +491,14 @@
       "benefit": ["Deep cleaning", "pH balanced", "Eco-friendly"],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
-          "https://www.spruproducts.in/images/gallery/s12-1.jpg",
-          "https://www.spruproducts.in/images/gallery/s12-2.jpg",
-          "https://www.spruproducts.in/images/gallery/s12-3.jpg",
-          "https://www.spruproducts.in/images/gallery/s12-4.jpg",
-          "https://www.spruproducts.in/images/gallery/s12-5.jpg",
-          "https://www.spruproducts.in/images/gallery/s12-6.jpg",
-          "https://www.spruproducts.in/images/gallery/s12-7.jpg",
-          "https://www.spruproducts.in/images/gallery/s12-8.jpg"
+        "https://www.spruproducts.in/images/gallery/s12-1.jpg",
+        "https://www.spruproducts.in/images/gallery/s12-2.jpg",
+        "https://www.spruproducts.in/images/gallery/s12-3.jpg",
+        "https://www.spruproducts.in/images/gallery/s12-4.jpg",
+        "https://www.spruproducts.in/images/gallery/s12-5.jpg",
+        "https://www.spruproducts.in/images/gallery/s12-6.jpg",
+        "https://www.spruproducts.in/images/gallery/s12-7.jpg",
+        "https://www.spruproducts.in/images/gallery/s12-8.jpg"
       ]
     },
     "black": {
