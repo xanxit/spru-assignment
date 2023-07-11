@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TestCard({ img, name, message, job }) {
   return (
-    <div className="shrink-0 w-[47%] md:w-[31%] bg-white rounded-md relative overflow-hidden snap-start">
+    <div className="shrink-0 w-[100%] xs:w-[47%] md:w-[31%] bg-white rounded-md relative overflow-hidden snap-start">
       <div className="flex flex-col justify-between h-full p-[15px] cursor-pointer">
         <div>
           <div className="h-[100px] w-[100px] rounded-full shadow-lg flex items-center justify-center bg-white mx-auto">
