@@ -12,7 +12,8 @@ export default function PdfView({img, link}) {
             </div>
             <div className='p-[10px] flex items-center justify-center text-blue-700'>
                 <a href={link} target='_blank'>
-                Download PDF</a>    
+                Download PDF
+                </a>    
             </div>
             
         </div>

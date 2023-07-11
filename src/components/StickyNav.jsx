@@ -63,7 +63,7 @@ export default function StickyNav(props) {
                     <div
                     className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400] cursor-pointer"
                   >
-                    {props.data[key].name}
+                    {props.data[key].title}
                   </div>
                   </Link>
                 );

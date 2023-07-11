@@ -325,7 +325,7 @@
   },
   "productList": {
     "glass": {
-      "name": "Glass Cleaner",
+      "title": "Glass Cleaner",
       "desc": "Glass Cleaner is an excellent product made with an ultra-advance formula for easy and effortless cleaning of Glass, Mirror, Windshield, Plastic, Laminated items etc. Our Liquid Glass Cleaner gives a sparkling new like finish to the surface without leaving any streaks or spots on the surface. These Liquid Glass Cleaners can be used for cleaning many home use items like Refrigerator, laptops, computers, laminated items, stains of door handles and surrounding areas etc.",
       "benefit": [
         "Remove Grease & Grime + Streak-free Finish",
@@ -339,7 +339,7 @@
       ]
     },
     "surface": {
-      "name": "Surface Cleaner",
+      "title": "Surface Cleaner",
       "desc": "Syfo Surface Cleaner is an extra strong cleaning material which is tough on stains, helps fighting and cleaning oily and greasy floor surfaces. It is a brilliant cleaner and cleans all washable surfaces. Along with cleaning, it respects the natural beauty and shine of your delicate surfaces everyday of the year. Use Strong solution for deep scaling marks. It is best suited for housekeeping scrubber machines.",
       "benefit": [
         "Heavy duty formulation to remove the toughest of scale formation.",
@@ -354,7 +354,7 @@
       ]
     },
     "floor": {
-      "name": "Floor Cleaner",
+      "title": "Floor Cleaner",
       "desc": "We are here to introduce a large variety of superior quality Floor Cleaners that are available in different sizes of packaging. These are widely acclaimed by our valued clients for their eco-friendliness, excellent consistency and easy usage. Our offered products are used for cleaning floors in hospitals, homes, banks, offices and other places. Floor Cleaners are eminent in preventing germs, bacteria, dirt, dust etc. In addition to this, these are accustomed with refreshing smell which gives the environment a nice fragrance. The said liquids provide extra shine to the floors and keep it clean all day long.",
       "benefit": [
         "Multi-surface floor cleaner.",
@@ -374,7 +374,7 @@
       ]
     },
     "toilet": {
-      "name": "Toilet Cleaner",
+      "title": "Toilet Cleaner",
       "desc": "You will get a huge range of best quality Toilet Cleaners here at Spru Products Pvt. Ltd. These are formulated for cleaning toilet seats and floors. In addition to this, the said products are widely found in residential and commercial places. Our offered liquids perfectly clean the floors and keep the surrounding free from germs, viruses, bacteria for the prevention of unwanted infections. These Toilet Cleaners are available in different sizes of plastic containers. Furthermore, the offered liquids have high cleaning abilities and anti-bacterial properties. These are accustomed with accurate composition, maximum reliability, thick consistency, and optimum service.",
       "benefit": [
         "Fast action cleaner for your toilet.",
@@ -390,20 +390,17 @@
       ]
     },
     "green": {
-      "name": "Green Toilet Cleaner",
+      "title": "Green Toilet Cleaner",
       "desc": "Green Toilet Cleaner",
       "benefit": [],
       "availability": [],
       "image": [
         "https://www.spruproducts.in/images/gallery/s5-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s5-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s5-3.jpg",
-        "https://www.spruproducts.in/images/gallery/s5-4.jpg",
-        "https://www.spruproducts.in/images/gallery/s5-5.jpg"
+        "https://www.spruproducts.in/images/gallery/s5-2.jpg"
       ]
     },
     "dish_washer": {
-      "name": "Dish Washer",
+      "title": "Dish Washer",
       "desc": "Syfo's Liquid Dish-wash and Gel come with citrus essence and are suitable for all kinds of utensils. Doubly powered with vinegar and lime, these products clean toughest grease and dirt stains very easily. While strong anti-smelling properties of vinegar remove all kinds of food odours, lime cleans greasy surface. Its superior technology also prevents scratching.",
       "benefit": [
         "Anti corrosive properties prevent rust and re-deposition of dirt",
@@ -414,12 +411,11 @@
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
         "https://www.spruproducts.in/images/gallery/s6-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s6-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s6-3.jpg"
+        "https://www.spruproducts.in/images/gallery/s6-2.jpg"
       ]
     },
     "room_freshner": {
-      "name": "Room Freshner",
+      "title": "Room Freshner",
       "desc": "Go through our wide range of Room Freshener, manufactured using high-grade material and upgraded technology by our skilled workers. This freshener is mainly used in homes or commercial interiors such as restrooms, hallways, lobbies, and other areas too. This freshener is a product that is designed for removing unpleasant odours from the living areas. This product basically delivers fragrance into the air and gives an awesome feeling. Air Freshener is mostly preferred for its beautiful fragrance which lasts for a longer time and makes your area fresh.",
       "benefit": [
         "Excellent Quality",
@@ -430,23 +426,20 @@
       ],
       "availability": ["250ML", "500 ML"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s7-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s7-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s7-3.jpg"
+        "https://www.spruproducts.in/images/gallery/x7-1.jpg",
+        "https://www.spruproducts.in/images/gallery/x7-2.jpg",
+        "https://www.spruproducts.in/images/gallery/x7-3.jpg"
       ]
     },
     "airfreshner": {
-      "name": "Air Freshner",
+      "title": "Air Freshner",
       "desc": "Syfo Power",
       "benefit": [],
       "availability": [],
-      "image": [
-        "https://www.spruproducts.in/images/gallery/s8-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s8-2.jpg"
-      ]
+      "image": ["https://www.spruproducts.in/images/gallery/s14-1.jpg"]
     },
     "dish_wash_bar": {
-      "name": "Dish Wash Bar",
+      "title": "Dish Wash Bar",
       "desc": "Syfo Dish wash Bar is an ideal dish washing surfactant. It does not harm your skin. It removes the toughest grease and gives you a pleasant cleaning experience with its refreshing lemon fragrance. Syfo Dish wash bar keeps your utensils looking new for longer as it cleans without scratching the surface. A great value for money product that guarantees overall satisfaction.",
       "benefit": [
         "Anti corrosive properties prevent rust and re-deposition of dirt",
@@ -456,12 +449,12 @@
       ],
       "availability": ["250ML", "500 ML"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s9-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s9-2.jpg"
+        "https://www.spruproducts.in/images/gallery/s8-1.jpg",
+        "https://www.spruproducts.in/images/gallery/s8-2.jpg"
       ]
     },
     "bleach": {
-      "name": "Syfo Bleach",
+      "title": "Syfo Bleach",
       "desc": "Syfo Bleach is an all-fabric bleach that is a gentle bleaching agent. It removes stains, whitens and brightens laundry, and is safe for use on almost all washable white and collared fabrics. Because of its chemical ingredients, it works more slowly than chlorine bleach, is less corrosive and damaging to fibers, and is more environmentally friendly.",
       "benefit": [
         "Syfo Bleach assures whiteness & removes tough stains",
@@ -470,18 +463,12 @@
       ],
       "availability": ["250ML", "500 ML"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s10-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s10-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s10-3.jpg",
-        "https://www.spruproducts.in/images/gallery/s10-4.jpg",
-        "https://www.spruproducts.in/images/gallery/s10-5.jpg",
-        "https://www.spruproducts.in/images/gallery/s10-6.jpg",
-        "https://www.spruproducts.in/images/gallery/s10-7.jpg",
-        "https://www.spruproducts.in/images/gallery/s10-8.jpg"
+        "https://www.spruproducts.in/images/gallery/s9-1.jpg",
+        "https://www.spruproducts.in/images/gallery/s9-2.jpg"
       ]
     },
     "bathroom": {
-      "name": "Bathroom Cleaner",
+      "title": "Bathroom Cleaner",
       "desc": "Syfo Bathroom Cleaner cleanses, shines, disinfects, and kills practically all harmful germs, viruses, and bacteria from the surface. It expertly removes meld, mildew, fungi, and all organic stains. It eliminates odor and spores by destroying the source. Safe and ideal for bathroom fittings, bathtubs, shower areas, tiles, floors, sinks, and grouts. It is ecologically safe to dispose of down the drains as enzymes will carry on breaking down organic matter.",
       "benefit": [
         "Safe and ideal for bathroom",
@@ -490,14 +477,10 @@
         "Eliminates bad odor"
       ],
       "availability": ["250ML", "500 ML"],
-      "image": [
-        "https://www.spruproducts.in/images/gallery/s11-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s11-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s11-3.jpg"
-      ]
+      "image": ["https://www.spruproducts.in/images/gallery/s10-1.jpg"]
     },
     "napthalene": {
-      "name": "White Napthalene Ball",
+      "title": "White Napthalene Ball",
       "desc": "Let’s have a look at Naphthalene Ball provided by our company, manufactured using super quality compounds by our skilled workers. This ball is used for preventing germs and bugs from eating clothes. It is a type of chemical pesticide with a good fragrance used as a rodent, squirrel, cockroaches, and bat repellent. This ball kills insects and may also repel many animals.",
       "benefit": [
         "Premium Grade Ingredients",
@@ -507,33 +490,41 @@
         "Suitable for Bed, Cupboard, Washroom etc."
       ],
       "availability": ["100GM", "200GM"],
-      "image": [
-        "https://www.spruproducts.in/images/gallery/s12-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-2.jpg"
-      ]
+      "image": ["https://www.spruproducts.in/images/gallery/s11-1.jpg"]
     },
     "handwash_liquid": {
-      "name": "Handwash Liquid",
+      "title": "Handwash Liquid",
       "desc": "Complete range of liquid hand wash from Syfo is manufactured using floral extracts and natural color that very effectively removes germs and dirt. Our products are gentle on the skin, producing a deep cleansing and moisturizing effect. These are available in two flavors - floral and herbal. This wash is made using high-grade material and upgraded technology by our skilled workers.",
       "benefit": ["Deep cleaning", "pH balanced", "Eco-friendly"],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s13-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s13-2.jpg"
+          "https://www.spruproducts.in/images/gallery/s12-1.jpg",
+          "https://www.spruproducts.in/images/gallery/s12-2.jpg",
+          "https://www.spruproducts.in/images/gallery/s12-3.jpg",
+          "https://www.spruproducts.in/images/gallery/s12-4.jpg",
+          "https://www.spruproducts.in/images/gallery/s12-5.jpg",
+          "https://www.spruproducts.in/images/gallery/s12-6.jpg",
+          "https://www.spruproducts.in/images/gallery/s12-7.jpg",
+          "https://www.spruproducts.in/images/gallery/s12-8.jpg"
       ]
     },
     "black": {
-      "name": "Black Floor Cleaner",
+      "title": "Black Floor Cleaner",
       "desc": "Syfo Black Floor cleaner contains a unique formulation that kills most of the germs and gives better germs protection than standard phenyls, keeping the whole house cleaners, shiners and germs free. Syfo Black floor cleaner saves you from harmful germs while keeping you and your family clean. Perfect for floors, tiles, sinks and all other washable surfaces.",
-      "benefit": [],
-      "image": [
-        "https://www.spruproducts.in/images/gallery/s14-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s14-2.jpg"
+      "benefit": [
+        "Premium Grade Ingredients",
+        "Non-Toxic",
+        "Antibacterial Properties",
+        "Suitable For All Types Of Floors"
       ],
-      "availability": ["250ML", "500 ML"]
+      "image": [
+        "https://www.spruproducts.in/images/gallery/s13-1.jpg",
+        "https://www.spruproducts.in/images/gallery/x13-2.jpg"
+      ],
+      "availability": ["250ML", "500 ML", "5 Ltr."]
     },
     "power": {
-      "name": "Syfo Power",
+      "title": "Syfo Power",
       "desc": "",
       "benefit": [
         "Premium Grade Ingredients",
@@ -542,16 +533,7 @@
         "Suitable For All Types Of Floors"
       ],
       "availability": ["250ML", "500 ML", "5 Ltr."],
-      "image": [
-        "https://www.spruproducts.in/images/gallery/s15-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s15-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s15-3.jpg",
-        "https://www.spruproducts.in/images/gallery/s15-4.jpg",
-        "https://www.spruproducts.in/images/gallery/s15-5.jpg",
-        "https://www.spruproducts.in/images/gallery/s15-6.jpg",
-        "https://www.spruproducts.in/images/gallery/s15-7.jpg",
-        "https://www.spruproducts.in/images/gallery/s15-8.jpg"
-      ]
+      "image": ["https://www.spruproducts.in/images/gallery/s15-1.jpg"]
     }
   }
-} 
+}
