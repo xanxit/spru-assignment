@@ -11,12 +11,13 @@ export default function StickyNav(props) {
   return (
     <div className="bg-secondary sticky top-0 text-white z-40">
       <div className="xs:max-w-[540px] sm:max-w-[720px] lg:max-w-[1200px] md:max-w-[960px] mx-auto px-[15px] flex items-center justify-between relative ">
-        <div className={`z-40 md:flex fixed md:relative top-0 md:left-0 -left-[280px] h-[100%]  md:w-full w-[280px] whitespace-nowrap  bg-white md:bg-transparent text-black md:text-inherit ${
+        <div
+          className={`z-40 lg:flex lg:justify-center fixed lg:relative top-0 lg:left-0 -left-[280px] h-[100%]  lg:w-full w-[280px] whitespace-nowrap  bg-white lg:bg-transparent text-black lg:text-inherit ${
             navActive ? " translate-x-[280px]" : ""
           } transition-all duration-300`}
           style={{ flexWrap: "wrap" }}
         >
-          <div className="visible md:hidden p-[15px] w-[280px]">
+          <div className="visible lg:hidden p-[15px] w-[280px]">
             <div className="w-[180px] mx-auto">
               <img src={props.logo.logo} alt="" />
             </div>
@@ -60,33 +61,29 @@ export default function StickyNav(props) {
               {Object.keys(props.data).map((key, index) => {
                 return (
                   <Link key={index} to={`/spru-assignment/product/${key}`}>
-                    <div
-                    className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400] cursor-pointer"
-                  >
-                    {props.data[key].title}
-                  </div>
+                    <div className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400] cursor-pointer">
+                      {props.data[key].title}
+                    </div>
                   </Link>
                 );
               })}
             </div>
           </div>
-          {(props.links).slice(3).map((record, index) => {
+          {props.links.slice(3).map((record, index) => {
             return (
               <Link to={`spru-assignment/${record.link}`} key={index}>
-                <div
-                className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group uppercase"
-              >
-                <div>{record.text}</div>
-                <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
-              </div>
+                <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group uppercase">
+                  <div>{record.text}</div>
+                  <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+                </div>
               </Link>
             );
           })}
         </div>
-        <div className="visible md:hidden h-[56px] w-[160px] flex justify-center items-center">
+        <div className="visible lg:hidden h-[56px] w-[160px] flex justify-center items-center">
           <img src={props.logo.logo} alt="" />
         </div>
-        <div className="visible md:hidden relative z-40">
+        <div className="visible lg:hidden relative z-40">
           <span onClick={handleNavClick}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png"
