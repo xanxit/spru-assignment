@@ -10,11 +10,8 @@ export default function ChooseCard({ img, title }) {
         >
           <img src={img} alt="" className="w-[60px] h-[60px] mx-auto" />
         </div>
-        <div
-          id="textContainer"
-          className="relative  z-40"
-        >
-          <h4 className="uppercase font-[500] leading-[28px] text-[18px] text-[#212529] group-hover:text-white">
+        <div id="textContainer" className="relative  z-40">
+          <h4 className="uppercase font-[500] leading-[28px] text-[15px] xs:text-[18px] text-[#212529] group-hover:text-white">
             {title}
           </h4>
         </div>
