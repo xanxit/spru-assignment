@@ -26,15 +26,15 @@ export default function StickyNav(props) {
           <Link to="/spru-assignment">
             <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
               <div>HOME</div>
-              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] lg:bg-yellow-400 h-[3px] w-full"></div>
             </div>
           </Link>
           <div className="relative group">
             <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
               <div>OUR COMPANY</div>
-              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] lg:bg-yellow-400 h-[3px] w-full"></div>
             </div>
-            <ul className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible md:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md cursor-pointer">
+            <ul className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible lg:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md cursor-pointer">
               <Link to="/spru-assignment/about">
                 <li className="mx-[20px] my-[2px] text-[15px] font-[lato] font-[400]">
                   About
@@ -55,9 +55,9 @@ export default function StickyNav(props) {
           <div className="relative group">
             <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
               <div>PRODUCTS</div>
-              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+              <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] lg:bg-yellow-400 h-[3px] w-full"></div>
             </div>
-            <div className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible md:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md">
+            <div className="absolute w-[220px] mt-[20px] py-[10px] bg-white text-[#333] invisible lg:group-hover:visible group-hover:opacity-100 translate-y-0 group-hover:-translate-y-[19px] transition-all duration-300 border border-solid border-[#f4f4f4] shadow-md">
               {Object.keys(props.data).map((key, index) => {
                 return (
                   <Link key={index} to={`/spru-assignment/product/${key}`}>
@@ -74,7 +74,7 @@ export default function StickyNav(props) {
               <Link to={`spru-assignment/${record.link}`} key={index}>
                 <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group uppercase">
                   <div>{record.text}</div>
-                  <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] md:bg-yellow-400 h-[3px] w-full"></div>
+                  <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] lg:bg-yellow-400 h-[3px] w-full"></div>
                 </div>
               </Link>
             );
@@ -83,7 +83,7 @@ export default function StickyNav(props) {
         <div className="visible lg:hidden h-[56px] w-[160px] flex justify-center items-center">
           <img src={props.logo.logo} alt="" />
         </div>
-        <div className="visible lg:hidden relative z-40">
+        <div className="visible lg:hidden relative z-40 cursor-pointer">
           <span onClick={handleNavClick}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png"
