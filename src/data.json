@@ -538,5 +538,10 @@
     "Marketing Person",
     "Supervisor Person",
     "Product Demo Representative"
-  ]
+  ],
+  "socials": {
+    "facebook": "testing",
+    "linkedin": "",
+    "twitter": ""
+  }
 }

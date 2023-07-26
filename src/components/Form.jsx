@@ -1,7 +1,15 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Form(props) {
   return (
@@ -65,49 +73,72 @@ export default function Form(props) {
             ) : (
               <div className="flex-col flex justify-between h-full w-full">
                 <div>
-                <h1 className="text-[24px] font-[800] mb-[10px]">
-                  Quick Contact
-                </h1>
-                <p className="mb-[30px]">
-                  If you have any questions simply use the following contact
-                  details.
-                </p>
-                <div className=" mt-[5px] leading-[22px]">
-                  <div className="mb-[20px] font-lato">
-                    <h1 className="font-[600] text-[15px] mb-[8px]">ADDRESS</h1>
-                    <div className="flex flex-row items-center justify-start">
-                    <FontAwesomeIcon icon={faLocationDot} className="w-[22px] p-3"/>
-                    <p className="font-[400] text-[15px]">{props.address}</p>
-                    
+                  <h1 className="text-[24px] font-[800] mb-[10px]">
+                    Quick Contact
+                  </h1>
+                  <p className="mb-[30px]">
+                    If you have any questions simply use the following contact
+                    details.
+                  </p>
+                  <div className=" mt-[5px] leading-[22px]">
+                    <div className="mb-[20px] font-lato">
+                      <h1 className="font-[600] text-[15px] mb-[8px]">
+                        ADDRESS
+                      </h1>
+                      <div className="flex flex-row items-center justify-start">
+                        <FontAwesomeIcon
+                          icon={faLocationDot}
+                          className="w-[22px] p-3"
+                        />
+                        <p className="font-[400] text-[15px]">
+                          {props.address}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="mb-[20px] font-lato">
+                      <h1 className="font-[600] text-[15px] mb-[8px]">
+                        MOBILE
+                      </h1>
+                      <div className="flex flex-row items-center justify-start">
+                        <FontAwesomeIcon
+                          icon={faPhone}
+                          className="w-[22px] p-3"
+                        />
+                        <p className="font-[400] text-[15px]">
+                          {props.phone} (24/7 Support Line)
+                        </p>
+                      </div>
+                    </div>
+                    <div className="mb-[20px] font-lato">
+                      <h1 className="font-[600] text-[15px] mb-[8px]">EMAIL</h1>
+                      <div className="flex flex-row items-center justify-start">
+                        <FontAwesomeIcon
+                          icon={faEnvelope}
+                          className="w-[22px] p-3"
+                        />
+                        <p className="font-[400] text-[15px]">{props.email}</p>
+                      </div>
                     </div>
                   </div>
-                  <div className="mb-[20px] font-lato">
-                    <h1 className="font-[600] text-[15px] mb-[8px]">MOBILE</h1>
-                    <div className="flex flex-row items-center justify-start">
-                    <FontAwesomeIcon icon={faPhone} className="w-[22px] p-3"/>
-                    <p className="font-[400] text-[15px]">{props.phone} (24/7 Support Line)</p>
-                    
-                    </div>
-                  </div>
-                  <div className="mb-[20px] font-lato">
-                    <h1 className="font-[600] text-[15px] mb-[8px]">EMAIL</h1>
-                    <div className="flex flex-row items-center justify-start">
-                    <FontAwesomeIcon icon={faEnvelope} className="w-[22px] p-3"/>
-                    <p className="font-[400] text-[15px]">{props.email}</p>
-                    
-                    </div>
-                  </div>
-                </div>
                 </div>
                 <div className="flex w-full h-[30px] justify-around">
-                  <a href="">
-                  <FontAwesomeIcon icon={faFacebook} className="w-full h-full"/>
+                  <a href={props.facebook}>
+                    <FontAwesomeIcon
+                      icon={faFacebook}
+                      className="w-full h-full"
+                    />
                   </a>
-                  <a href="">
-                  <FontAwesomeIcon icon={faLinkedin} className="w-full h-full"/>
+                  <a href={props.linkedin}>
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="w-full h-full"
+                    />
                   </a>
-                  <a href="">
-                  <FontAwesomeIcon icon={faTwitter} className="w-full h-full"/>
+                  <a href={props.twitter}>
+                    <FontAwesomeIcon
+                      icon={faTwitter}
+                      className="w-full h-full"
+                    />
                   </a>
                 </div>
               </div>
