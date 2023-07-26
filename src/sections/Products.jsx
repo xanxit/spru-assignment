@@ -26,7 +26,7 @@ export default function Products(props) {
           </h1>
         </div>
         <div
-          className="w-full flex overflow-hidden gap-[30px] justify-between snap-x snap-mandatory mb-[30px]"
+          className="w-full flex overflow-x-scroll gap-[30px] justify-between snap-x snap-mandatory mb-[30px] py-6"
           ref={carouselRef}
         >
           {props.data.map((record, index) => {

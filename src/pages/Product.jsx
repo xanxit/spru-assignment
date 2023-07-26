@@ -30,7 +30,7 @@ export default function Product(productList) {
           <div className="flex flex-col sm:flex-row gap-[30px]">
             <div className="w-full sm:w-[33%] shrink-0 ">
               <div
-                className="flex flex-nowrap overflow-x-hidden snap-x snap-mandatory"
+                className="flex flex-nowrap overflow-x-scroll snap-x snap-mandatory py-6"
                 ref={carouselRef}
               >
                 {product.image.map((img, index) => {
