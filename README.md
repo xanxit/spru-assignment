@@ -23,5 +23,5 @@ Mainly uses different shades of emerald and some custom colors
 
 ## Demo
 
-visit the website here - https://afterdie.github.io/spru-assignment/
+visit the website here - https://afterdie.github.io/
 

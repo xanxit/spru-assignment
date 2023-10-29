@@ -31,50 +31,50 @@ export default function App() {
         />
         <Routes>
           <Route
-            path="/spru-assignment"
+            path="/"
             element={<Home dataObject={dataObject} />}
           />
           <Route
-            path="/spru-assignment/about"
+            path="/about"
             element={<About {...dataObject.ourCompany} />}
           />
           <Route
-            path="/spru-assignment/vision"
+            path="/vision"
             element={<Vision {...dataObject.ourCompany} />}
           />
           <Route
-            path="/spru-assignment/principles"
+            path="/principles"
             element={<Principles {...dataObject.ourCompany} />}
           />
           <Route
-            path="/spru-assignment/catalogue"
+            path="/catalogue"
             element={<Catalogue {...dataObject.catalogue} />}
           />
           <Route
-            path="/spru-assignment/certificates"
+            path="/certificates"
             element={<Certificates {...dataObject.certificates} />}
           />
           <Route
-            path="/spru-assignment/gallery"
+            path="/gallery"
             element={<Gallery {...dataObject.gallery} />}
           />
           <Route
-            path="/spru-assignment/career"
+            path="/career"
             element={<Career {...dataObject} />}
           />
           <Route
-            path="/spru-assignment/distributor"
+            path="/distributor"
             element={<Distributor {...dataObject} />}
           />
           <Route
-            path="/spru-assignment/contact"
+            path="/contact"
             element={<Contact {...dataObject} />}
           />
           <Route
-            path="/spru-assignment/product/:id"
+            path="/product/:id"
             element={<Product {...dataObject.productList} />}
           />
-          <Route path="/spru-assignment/*" element={<NotFound />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
         <Footer dataObject={dataObject} />
       </Router>

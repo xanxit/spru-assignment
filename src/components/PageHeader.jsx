@@ -9,7 +9,7 @@ export default function PageHeader({title}) {
     {title}
   </div>
   <div className='absolute bottom-0 w-full flex items-center justify-center p-[20px]'>
-  <span className='relative z-10 text-white font-lato text-[16px] font-[400] '><Link to="/spru-assignment/" className='text-blue-400'>Home </Link>/ {title}</span>
+  <span className='relative z-10 text-white font-lato text-[16px] font-[400] '><Link to="/" className='text-blue-400'>Home </Link>/ {title}</span>
   <div className='bg-black w-full h-full absolute bottom-0 opacity-[60%] text-white'/>
   </div>
 </div>
