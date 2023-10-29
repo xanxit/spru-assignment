@@ -1,6 +1,6 @@
 {
   "info": {
-    "logo": "https://www.spruproducts.in/images/logo.png",
+    "logo": "images/logo.png",
     "phone": "(+91) 7355147501",
     "hours": "10am to 6pm",
     "about": "MAGARMACSH division of ASA Industries aims to significantly impact the availability of hygiene and sanitation solutions for India. The company manufactures Home Care Products for consumers under the brand name of Magarmach at a highly affordable price." ,
@@ -9,93 +9,93 @@
   },
   "welcomeCard": [
     {
-      "img": "https://www.spruproducts.in/images/icon/h1.png",
+      "img": "images/icon/h1.png",
       "title": "Manufacturing",
       "content": "Our Manufacturing facilities are located at at Kaithi, Uttar Pradesh.."
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/h2.png",
+      "img": "images/icon/h2.png",
       "title": "Market Presence",
       "content": "We support the on-field sales team through round-the-clock Marketing and Technical support."
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/h3.png",
+      "img": "images/icon/h3.png",
       "title": "R & D",
       "content": "We have a team of consultants who specialize in various products of the Industry."
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/h4.png",
+      "img": "images/icon/h4.png",
       "title": "Contact",
       "content": "Please feel free to communicate with us 24/7."
     }
   ],
   "chooseCard": [
     {
-      "img": "https://www.spruproducts.in/images/icon/icon1.png",
+      "img": "images/icon/icon1.png",
       "title": "Customer Support"
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/icon4.png",
+      "img": "images/icon/icon4.png",
       "title": "Quality"
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/icon2.png",
+      "img": "images/icon/icon2.png",
       "title": "safety & security"
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/icon5.png",
+      "img": "images/icon/icon5.png",
       "title": "networking"
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/icon3.png",
+      "img": "images/icon/icon3.png",
       "title": "customer engagement"
     },
     {
-      "img": "https://www.spruproducts.in/images/icon/icon6.png",
+      "img": "images/icon/icon6.png",
       "title": "delivery"
     }
   ],
   "industryCard": [
     {
-      "img": "https://www.spruproducts.in/images/our-work/s1.jpg",
+      "img": "images/our-work/s1.jpg",
       "title": "Domestic"
     },
     {
-      "img": "https://www.spruproducts.in/images/our-work/s2.jpg",
+      "img": "images/our-work/s2.jpg",
       "title": "Commercial"
     },
     {
-      "img": "https://www.spruproducts.in/images/our-work/s3.jpg",
+      "img": "images/our-work/s3.jpg",
       "title": "Industrial"
     },
     {
-      "img": "https://www.spruproducts.in/images/our-work/s4.jpg",
+      "img": "images/our-work/s4.jpg",
       "title": "House Keeping"
     },
     {
-      "img": "https://www.spruproducts.in/images/our-work/s5.jpg",
+      "img": "images/our-work/s5.jpg",
       "title": "Government & Corporate"
     },
     {
-      "img": "https://www.spruproducts.in/images/our-work/s6.jpg",
+      "img": "images/our-work/s6.jpg",
       "title": "Railway & Autombile"
     }
   ],
   "testCard": [
     {
-      "img": "https://www.spruproducts.in/images/testimonials/t1.jpg",
+      "img": "images/testimonials/t1.jpg",
       "name": "Hament Gupta",
       "message": "I am very happy with Spru Products, they are very friendly    and always ready to take new challenge . We closed several great clients  in Utter Pradesh as well India also.",
       "job": "GNG Distributors, Sitapur"
     },
     {
-      "img": "https://www.spruproducts.in/images/testimonials/t1.jpg",
+      "img": "images/testimonials/t1.jpg",
       "name": "Dinesh Jaiswal",
       "message": "I am totally surprise with quality, Amazing Products with best quality. ASA Toilet Cleaner is superb ... Well Done Spru!",
       "job": "Jaiswal Trading Company, Maharajganj"
     },
     {
-      "img": "https://www.spruproducts.in/images/testimonials/t1.jpg",
+      "img": "images/testimonials/t1.jpg",
       "name": "Anil Kumar Mathur",
       "message": "Kitchen Product range is quite impressive. It will be good option for hotel industry. Highly Recommended..",
       "job": "MMR Enterprises, Lucknow"
@@ -142,26 +142,26 @@
     "/header-1.jpg"
   ],
   "productImages": [
-    "https://www.spruproducts.in/images/gallery/s8-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s9-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s10-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s11-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s12-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s13-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s14-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s15-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s1-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s2-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s3-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s4-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s5-1.jpg",
-    "https://www.spruproducts.in/images/gallery/s6-1.jpg",
-    "https://www.spruproducts.in/images/gallery/x7-1.jpg"
+    "images/gallery/s8-1.jpg",
+    "images/gallery/s9-1.jpg",
+    "images/gallery/s10-1.jpg",
+    "images/gallery/s11-1.jpg",
+    "images/gallery/s12-1.jpg",
+    "images/gallery/s13-1.jpg",
+    "images/gallery/s14-1.jpg",
+    "images/gallery/s15-1.jpg",
+    "images/gallery/s1-1.jpg",
+    "images/gallery/s2-1.jpg",
+    "images/gallery/s3-1.jpg",
+    "images/gallery/s4-1.jpg",
+    "images/gallery/s5-1.jpg",
+    "images/gallery/s6-1.jpg",
+    "images/gallery/x7-1.jpg"
   ],
   "ourCompany": {
     "page_aboutUs": {
       "title": "About Us",
-      "img": "https://www.spruproducts.in/images/about.jpg",
+      "img": "images/about.jpg",
       "sections": [
         {
           "heading": "Our Manufacturing Unit",
@@ -179,7 +179,7 @@
     },
     "page_principles": {
       "title": "Principles",
-      "img": "https://www.spruproducts.in/images/guiding.jpg",
+      "img": "images/guiding.jpg",
       "sections": [
         {
           "heading": "Trust",
@@ -205,7 +205,7 @@
     },
     "page_vision": {
       "title": "Vision",
-      "img": "https://www.spruproducts.in/images/vision.jpg",
+      "img": "images/vision.jpg",
       "sections": [
         {
           "heading": "VISION",
@@ -225,38 +225,38 @@
   "catalogue": {
     "title": "Catalogue",
     "images": [
-      "https://www.spruproducts.in/images/gallery/cate-1.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-2.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-3.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-4.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-5.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-6.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-7.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-8.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-9.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-10.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-11.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-12.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-13.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-14.jpg",
-      "https://www.spruproducts.in/images/gallery/cate-15.jpg"
+      "images/gallery/cate-1.jpg",
+      "images/gallery/cate-2.jpg",
+      "images/gallery/cate-3.jpg",
+      "images/gallery/cate-4.jpg",
+      "images/gallery/cate-5.jpg",
+      "images/gallery/cate-6.jpg",
+      "images/gallery/cate-7.jpg",
+      "images/gallery/cate-8.jpg",
+      "images/gallery/cate-9.jpg",
+      "images/gallery/cate-10.jpg",
+      "images/gallery/cate-11.jpg",
+      "images/gallery/cate-12.jpg",
+      "images/gallery/cate-13.jpg",
+      "images/gallery/cate-14.jpg",
+      "images/gallery/cate-15.jpg"
     ],
     "pdfContent": [
       {
-        "img": "https://www.spruproducts.in/images/gallery/gg-1.jpg",
-        "link": "https://www.spruproducts.in/images/gallery/1.pdf"
+        "img": "images/gallery/gg-1.jpg",
+        "link": "images/gallery/1.pdf"
       },
       {
-        "img": "https://www.spruproducts.in/images/gallery/gg-2.jpg",
-        "link": "https://www.spruproducts.in/images/gallery/2.pdf"
+        "img": "images/gallery/gg-2.jpg",
+        "link": "images/gallery/2.pdf"
       }
     ]
   },
   "certificates": {
     "title": "Certificates",
     "pdfContent": {
-      "img": "https://www.spruproducts.in/images/gallery/cert-1.jpg",
-      "link": "https://www.spruproducts.in/images/gallery/ASA.pdf"
+      "img": "images/gallery/cert-1.jpg",
+      "link": "images/gallery/ASA.pdf"
     },
     "links": [
       {
@@ -292,14 +292,14 @@
   "gallery": {
     "title": "Gallery",
     "images": [
-      "https://www.spruproducts.in/images/gallery/g-1.jpg",
-      "https://www.spruproducts.in/images/gallery/g-2.jpg",
-      "https://www.spruproducts.in/images/gallery/g-3.jpg",
-      "https://www.spruproducts.in/images/gallery/g-4.jpg",
-      "https://www.spruproducts.in/images/gallery/g-5.jpg",
-      "https://www.spruproducts.in/images/gallery/g-6.jpg",
-      "https://www.spruproducts.in/images/gallery/g-7.jpg",
-      "https://www.spruproducts.in/images/gallery/g-8.jpg"
+      "images/gallery/g-1.jpg",
+      "images/gallery/g-2.jpg",
+      "images/gallery/g-3.jpg",
+      "images/gallery/g-4.jpg",
+      "images/gallery/g-5.jpg",
+      "images/gallery/g-6.jpg",
+      "images/gallery/g-7.jpg",
+      "images/gallery/g-8.jpg"
     ]
   },
   "productList": {
@@ -313,8 +313,8 @@
       ],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s1-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s1-2.jpg"
+        "images/gallery/s1-1.jpg",
+        "images/gallery/s1-2.jpg"
       ]
     },
     "surface": {
@@ -326,10 +326,10 @@
       ],
       "availability": ["250ML", "500ML", "5L"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s2-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s2-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s2-3.jpg",
-        "https://www.spruproducts.in/images/gallery/s2-4.jpg"
+        "images/gallery/s2-1.jpg",
+        "images/gallery/s2-2.jpg",
+        "images/gallery/s2-3.jpg",
+        "images/gallery/s2-4.jpg"
       ]
     },
     "floor": {
@@ -345,11 +345,11 @@
       ],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s3-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s3-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s3-3.jpg",
-        "https://www.spruproducts.in/images/gallery/s3-4.jpg",
-        "https://www.spruproducts.in/images/gallery/s3-5.jpg"
+        "images/gallery/s3-1.jpg",
+        "images/gallery/s3-2.jpg",
+        "images/gallery/s3-3.jpg",
+        "images/gallery/s3-4.jpg",
+        "images/gallery/s3-5.jpg"
       ]
     },
     "toilet": {
@@ -362,10 +362,10 @@
       ],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s4-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s4-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s4-3.jpg",
-        "https://www.spruproducts.in/images/gallery/s4-4.jpg"
+        "images/gallery/s4-1.jpg",
+        "images/gallery/s4-2.jpg",
+        "images/gallery/s4-3.jpg",
+        "images/gallery/s4-4.jpg"
       ]
     },
     "green": {
@@ -378,8 +378,8 @@
       ],
       "availability": ["250ML", "500 ML"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s5-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s5-2.jpg"
+        "images/gallery/s5-1.jpg",
+        "images/gallery/s5-2.jpg"
       ]
     },
     "dish_washer": {
@@ -393,8 +393,8 @@
       ],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s6-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s6-2.jpg"
+        "images/gallery/s6-1.jpg",
+        "images/gallery/s6-2.jpg"
       ]
     },
     "room_freshner": {
@@ -409,9 +409,9 @@
       ],
       "availability": ["250ML", "500 ML"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/x7-1.jpg",
-        "https://www.spruproducts.in/images/gallery/x7-2.jpg",
-        "https://www.spruproducts.in/images/gallery/x7-3.jpg"
+        "images/gallery/x7-1.jpg",
+        "images/gallery/x7-2.jpg",
+        "images/gallery/x7-3.jpg"
       ]
     },
     "airfreshner": {
@@ -425,7 +425,7 @@
         "Suitable for Room, Car, Lobby etc."
       ],
       "availability": ["250ML", "500 ML"],
-      "image": ["https://www.spruproducts.in/images/gallery/s14-1.jpg"]
+      "image": ["images/gallery/s14-1.jpg"]
     },
     "dish_wash_bar": {
       "title": "Dish Wash Bar",
@@ -438,8 +438,8 @@
       ],
       "availability": ["250ML", "500 ML"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s8-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s8-2.jpg"
+        "images/gallery/s8-1.jpg",
+        "images/gallery/s8-2.jpg"
       ]
     },
     "bleach": {
@@ -452,8 +452,8 @@
       ],
       "availability": ["250ML", "500 ML"],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s9-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s9-2.jpg"
+        "images/gallery/s9-1.jpg",
+        "images/gallery/s9-2.jpg"
       ]
     },
     "bathroom": {
@@ -466,7 +466,7 @@
         "Eliminates bad odor"
       ],
       "availability": ["250ML", "500 ML"],
-      "image": ["https://www.spruproducts.in/images/gallery/s10-1.jpg"]
+      "image": ["images/gallery/s10-1.jpg"]
     },
     "napthalene": {
       "title": "White Napthalene Ball",
@@ -479,7 +479,7 @@
         "Suitable for Bed, Cupboard, Washroom etc."
       ],
       "availability": ["100GM", "200GM"],
-      "image": ["https://www.spruproducts.in/images/gallery/s11-1.jpg"]
+      "image": ["images/gallery/s11-1.jpg"]
     },
     "handwash_liquid": {
       "title": "Handwash Liquid",
@@ -487,14 +487,14 @@
       "benefit": ["Deep cleaning", "pH balanced", "Eco-friendly"],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s12-1.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-2.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-3.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-4.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-5.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-6.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-7.jpg",
-        "https://www.spruproducts.in/images/gallery/s12-8.jpg"
+        "images/gallery/s12-1.jpg",
+        "images/gallery/s12-2.jpg",
+        "images/gallery/s12-3.jpg",
+        "images/gallery/s12-4.jpg",
+        "images/gallery/s12-5.jpg",
+        "images/gallery/s12-6.jpg",
+        "images/gallery/s12-7.jpg",
+        "images/gallery/s12-8.jpg"
       ]
     },
     "black": {
@@ -507,8 +507,8 @@
         "Suitable For All Types Of Floors"
       ],
       "image": [
-        "https://www.spruproducts.in/images/gallery/s13-1.jpg",
-        "https://www.spruproducts.in/images/gallery/x13-2.jpg"
+        "images/gallery/s13-1.jpg",
+        "images/gallery/x13-2.jpg"
       ],
       "availability": ["250ML", "500 ML", "5 Ltr."]
     },
@@ -522,7 +522,7 @@
         "Suitable For All Types Of Floors"
       ],
       "availability": ["250ML", "500 ML", "5 Ltr."],
-      "image": ["https://www.spruproducts.in/images/gallery/s15-1.jpg"]
+      "image": ["images/gallery/s15-1.jpg"]
     }
   },
   "forms": {
