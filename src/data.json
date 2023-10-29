@@ -243,12 +243,8 @@
     ],
     "pdfContent": [
       {
-        "img": "images/gallery/gg-1.jpg",
-        "link": "images/gallery/1.pdf"
-      },
-      {
-        "img": "images/gallery/gg-2.jpg",
-        "link": "images/gallery/2.pdf"
+        "img": "images/portfolio.png",
+        "link": "product-portfolio.pdf"
       }
     ]
   },

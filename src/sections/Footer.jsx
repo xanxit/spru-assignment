@@ -90,10 +90,9 @@ export default function Footer({ dataObject }) {
       <div className="w-full  bg-secondary text-emerald-200 border-white/[0.2] border-t-[1px]">
         <div className="flex flex-col sm:flex-row flex-wrap xs:max-w-[540px] sm:max-w-[720px] md:max-w-[960px] lg:max-w-[1200px] mx-auto text-[14px] py-[25px] font-lato font-[400]">
           <div className="px-[15px] py-[5px] sm:py-[0px] text-left sm:max-w-[33.3%] grow">
-            © Copyright 2020 SPRU Products
+            © Copyright 2023 ASA Industries
           </div>
           <div className="px-[15px] py-[5px] sm:py-[0px] text-center sm:max-w-[33.3%] grow cursor-pointer">
-            Design by AKSHAT
           </div>
           <ul className="flex px-[15px] py-[5px] sm:py-[0px] justify-end sm:max-w-[33.3%] grow text-[15px] font-lato leading-6">
             <li className="pl-[15px]">About</li>

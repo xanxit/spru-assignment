@@ -10,24 +10,11 @@ export default function Catalogue({ title, images, pdfContent }) {
       <div className="w-full py-[70px]">
         <div className="max-w-[540px] sm:max-w-[720px] md:max-w-[960px] lg:max-w-[1200px] mx-auto px-[15px]">
           <div>
-            <div className="flex flex-row gap-[30px] mb-[50px]">
+            <a href="/product-portfolio.pdf" className="">
               {pdfContent.map((pdf, index) => {
-                return <PdfView {...pdf} className="w-[25%]" key={index}/>;
+                return <PdfView {...pdf} key={index}/>;
               })}
-            </div>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-[30px]">
-            {images.map((image, index) => {
-              return (
-                <div className="relative group overflow-hidden" key={index}>
-                  <img
-                    src={image}
-                    alt=""
-                    className="group-hover:scale-125 transition-all duration-200 w-full"
-                  />
-                </div>
-              );
-            })}
+            </a>
           </div>
         </div>
       </div>
