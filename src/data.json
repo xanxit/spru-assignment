@@ -136,10 +136,10 @@
     }
   ],
   "heroImages": [
-    "/header-1.jpg",
-    "/header-2.jpg",
-    "/header-3.jpg",
-    "/header-1.jpg"
+    "images/header-1.jpg",
+    "images/header-2.jpg",
+    "images/header-3.jpg",
+    "images/header-1.jpg"
   ],
   "productImages": [
     "images/gallery/s8-1.jpg",
