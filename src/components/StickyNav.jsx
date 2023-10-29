@@ -18,7 +18,7 @@ export default function StickyNav(props) {
           style={{ flexWrap: "wrap" }}
         >
           <div className="visible lg:hidden p-[15px] w-[280px]">
-            <div className="w-[180px] mx-auto">
+            <div className="w-[180px] h-[56px] mx-auto">
               <img src={props.logo.logo} alt="" />
             </div>
           </div>
