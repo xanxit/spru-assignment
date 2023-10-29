@@ -24,7 +24,7 @@ export default {
     extend: {
       backgroundImage: {
         'industryParallax': 'url("images/background/bg2.jpg")', 
-        'pageHeader': 'url("images/main-slider/3.png")'
+        'pageHeader': 'url("images/asa-logo.jpg")'
       },
       keyframes: {
         wiggle: {
