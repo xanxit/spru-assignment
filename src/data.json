@@ -3,7 +3,7 @@
     "logo": "https://www.spruproducts.in/images/logo.png",
     "phone": "(+91) 7355147501",
     "hours": "10am to 6pm",
-    "about": "Spru Products is one of the reliable Manufacturers, Exporters, and Suppliers of many items. We are an ISO 9001-2008 certified company. Our product range comprises of House Cleaning Chemicals, Autocare Products, and Laundry Products. We deliver good quality products at low cost. That is why our customers trust us and this helps us to create a long-term relationship with our customers.",
+    "about": "MAGARMACSH division of ASA Industries aims to significantly impact the availability of hygiene and sanitation solutions for India. The company manufactures Home Care Products for consumers under the brand name of Magarmach at a highly affordable price." ,
     "address": "1st Floor, Ories Tower Plot No.- 6, Opp. New High Court Faizabad Road, Lucknow",
     "email": "info@spruproducts.in"
   },
@@ -11,7 +11,7 @@
     {
       "img": "https://www.spruproducts.in/images/icon/h1.png",
       "title": "Manufacturing",
-      "content": "Our Manufacturing facilities are located at Nawabganj, Barabanki, Uttar Pradesh."
+      "content": "Our Manufacturing facilities are located at at Kaithi, Uttar Pradesh.."
     },
     {
       "img": "https://www.spruproducts.in/images/icon/h2.png",
@@ -91,7 +91,7 @@
     {
       "img": "https://www.spruproducts.in/images/testimonials/t1.jpg",
       "name": "Dinesh Jaiswal",
-      "message": "I am totally surprise with quality, Amazing Products with best quality. SYFO Toilet Cleaner is superb ... Well Done Spru!",
+      "message": "I am totally surprise with quality, Amazing Products with best quality. ASA Toilet Cleaner is superb ... Well Done Spru!",
       "job": "Jaiswal Trading Company, Maharajganj"
     },
     {
@@ -123,10 +123,6 @@
       "link": "certificates"
     },
     {
-      "text": "Career",
-      "link": "career"
-    },
-    {
       "text": "Distributor",
       "link": "distributor"
     },
@@ -140,10 +136,10 @@
     }
   ],
   "heroImages": [
-    "https://www.spruproducts.in/images/main-slider/1.png",
-    "https://www.spruproducts.in/images/main-slider/2.png",
-    "https://www.spruproducts.in/images/main-slider/3.png",
-    "https://www.spruproducts.in/images/main-slider/1.png"
+    "/header-1.jpg",
+    "/header-2.jpg",
+    "/header-3.jpg",
+    "/header-1.jpg"
   ],
   "productImages": [
     "https://www.spruproducts.in/images/gallery/s8-1.jpg",
@@ -213,15 +209,15 @@
       "sections": [
         {
           "heading": "VISION",
-          "para": "To make every Indian household daily user of SYFO"
+          "para": "To make every Indian household daily user of ASA"
         },
         {
           "heading": "MISSION",
-          "para": "To create a place for SYFO in Indian House Cleaning Products and hygiene solution"
+          "para": "To create a place for ASA in Indian House Cleaning Products and hygiene solution"
         },
         {
           "heading": "VALUES",
-          "para": "The SYFO Family culture guided by our vision statement. We believe in making the wellbeing and satisfaction of our customers the basis of every decision for the business and the product. The quality of our products and the loyalty of our customers are a testimony to the above statement."
+          "para": "The ASA Family culture guided by our vision statement. We believe in making the wellbeing and satisfaction of our customers the basis of every decision for the business and the product. The quality of our products and the loyalty of our customers are a testimony to the above statement."
         }
       ]
     }
@@ -260,36 +256,36 @@
     "title": "Certificates",
     "pdfContent": {
       "img": "https://www.spruproducts.in/images/gallery/cert-1.jpg",
-      "link": "https://www.spruproducts.in/images/gallery/SYFO.pdf"
+      "link": "https://www.spruproducts.in/images/gallery/ASA.pdf"
     },
     "links": [
       {
-        "file": "SYFO LIQUID HANWASH MSDS",
-        "link": "https://www.spruproducts.in/files/SYFO__LIQUID_HANWASH_MSDS_01.pdf"
+        "file": "ASA LIQUID HANWASH MSDS",
+        "link": "https://www.spruproducts.in/files/ASA__LIQUID_HANWASH_MSDS_01.pdf"
       },
       {
-        "file": "SYFO GLASS CLEANER",
-        "link": "https://www.spruproducts.in/files/SYFO_GLASS_CLEANER_MSDS.pdf"
+        "file": "ASA GLASS CLEANER",
+        "link": "https://www.spruproducts.in/files/ASA_GLASS_CLEANER_MSDS.pdf"
       },
       {
-        "file": "SYFO SURFACE CLEANER",
-        "link": "https://www.spruproducts.in/files/SYFO_SURFACE_CLEANER_MSDS_01.pdf"
+        "file": "ASA SURFACE CLEANER",
+        "link": "https://www.spruproducts.in/files/ASA_SURFACE_CLEANER_MSDS_01.pdf"
       },
       {
-        "file": "SYFO MSDS BATHROOM CLEANER SYFO",
-        "link": "https://www.spruproducts.in/files/SYFO-MSDS_BATHROOM_CLEANER_SYFO_01.pdf"
+        "file": "ASA MSDS BATHROOM CLEANER ASA",
+        "link": "https://www.spruproducts.in/files/ASA-MSDS_BATHROOM_CLEANER_ASA_01.pdf"
       },
       {
-        "file": "SYFO MSDS OF SYFO TOILET CLEANER",
-        "link": "https://www.spruproducts.in/files/SYFO-MSDS_OF_SYFO_TOILET_CLEANER.pdf"
+        "file": "ASA MSDS OF ASA TOILET CLEANER",
+        "link": "https://www.spruproducts.in/files/ASA-MSDS_OF_ASA_TOILET_CLEANER.pdf"
       },
       {
-        "file": "SYFO MSDS PERFUMED FLOOR CLEANER",
-        "link": "https://www.spruproducts.in/files/SYFO-MSDS_PERFUMED-FLOOR_CLEANER.pdf"
+        "file": "ASA MSDS PERFUMED FLOOR CLEANER",
+        "link": "https://www.spruproducts.in/files/ASA-MSDS_PERFUMED-FLOOR_CLEANER.pdf"
       },
       {
-        "file": "SYFO MSDS BLEACH",
-        "link": "https://www.spruproducts.in/files/SYFO-MSDS-BLEACH.pdf"
+        "file": "ASA MSDS BLEACH",
+        "link": "https://www.spruproducts.in/files/ASA-MSDS-BLEACH.pdf"
       }
     ]
   },
@@ -323,7 +319,7 @@
     },
     "surface": {
       "title": "Surface Cleaner",
-      "desc": "Syfo Surface Cleaner is an extra strong cleaning material which is tough on stains, helps fighting and cleaning oily and greasy floor surfaces. It is a brilliant cleaner and cleans all washable surfaces. Along with cleaning, it respects the natural beauty and shine of your delicate surfaces everyday of the year. Use Strong solution for deep scaling marks. It is best suited for housekeeping scrubber machines.",
+      "desc": "ASA Surface Cleaner is an extra strong cleaning material which is tough on stains, helps fighting and cleaning oily and greasy floor surfaces. It is a brilliant cleaner and cleans all washable surfaces. Along with cleaning, it respects the natural beauty and shine of your delicate surfaces everyday of the year. Use Strong solution for deep scaling marks. It is best suited for housekeeping scrubber machines.",
       "benefit": [
         "Heavy duty formulation to remove the toughest of scale formation.",
         "Removes all types of scales and stains caused by hard water and mineral deposits."
@@ -388,7 +384,7 @@
     },
     "dish_washer": {
       "title": "Dish Washer",
-      "desc": "Syfo's Liquid Dish-wash and Gel come with citrus essence and are suitable for all kinds of utensils. Doubly powered with vinegar and lime, these products clean toughest grease and dirt stains very easily. While strong anti-smelling properties of vinegar remove all kinds of food odours, lime cleans greasy surface. Its superior technology also prevents scratching.",
+      "desc": "ASA's Liquid Dish-wash and Gel come with citrus essence and are suitable for all kinds of utensils. Doubly powered with vinegar and lime, these products clean toughest grease and dirt stains very easily. While strong anti-smelling properties of vinegar remove all kinds of food odours, lime cleans greasy surface. Its superior technology also prevents scratching.",
       "benefit": [
         "Anti corrosive properties prevent rust and re-deposition of dirt",
         "pH balanced and safe for hands",
@@ -433,7 +429,7 @@
     },
     "dish_wash_bar": {
       "title": "Dish Wash Bar",
-      "desc": "Syfo Dish wash Bar is an ideal dish washing surfactant. It does not harm your skin. It removes the toughest grease and gives you a pleasant cleaning experience with its refreshing lemon fragrance. Syfo Dish wash bar keeps your utensils looking new for longer as it cleans without scratching the surface. A great value for money product that guarantees overall satisfaction.",
+      "desc": "ASA Dish wash Bar is an ideal dish washing surfactant. It does not harm your skin. It removes the toughest grease and gives you a pleasant cleaning experience with its refreshing lemon fragrance. ASA Dish wash bar keeps your utensils looking new for longer as it cleans without scratching the surface. A great value for money product that guarantees overall satisfaction.",
       "benefit": [
         "Anti corrosive properties prevent rust and re-deposition of dirt",
         "pH balanced and safe for hands",
@@ -447,10 +443,10 @@
       ]
     },
     "bleach": {
-      "title": "Syfo Bleach",
-      "desc": "Syfo Bleach is an all-fabric bleach that is a gentle bleaching agent. It removes stains, whitens and brightens laundry, and is safe for use on almost all washable white and collared fabrics. Because of its chemical ingredients, it works more slowly than chlorine bleach, is less corrosive and damaging to fibers, and is more environmentally friendly.",
+      "title": "ASA Bleach",
+      "desc": "ASA Bleach is an all-fabric bleach that is a gentle bleaching agent. It removes stains, whitens and brightens laundry, and is safe for use on almost all washable white and collared fabrics. Because of its chemical ingredients, it works more slowly than chlorine bleach, is less corrosive and damaging to fibers, and is more environmentally friendly.",
       "benefit": [
-        "Syfo Bleach assures whiteness & removes tough stains",
+        "ASA Bleach assures whiteness & removes tough stains",
         "Suitable for use on White Cottons & Terrycots",
         "Lets nothing come in the way of dazzling whites, not even tough stains"
       ],
@@ -462,7 +458,7 @@
     },
     "bathroom": {
       "title": "Bathroom Cleaner",
-      "desc": "Syfo Bathroom Cleaner cleanses, shines, disinfects, and kills practically all harmful germs, viruses, and bacteria from the surface. It expertly removes meld, mildew, fungi, and all organic stains. It eliminates odor and spores by destroying the source. Safe and ideal for bathroom fittings, bathtubs, shower areas, tiles, floors, sinks, and grouts. It is ecologically safe to dispose of down the drains as enzymes will carry on breaking down organic matter.",
+      "desc": "ASA Bathroom Cleaner cleanses, shines, disinfects, and kills practically all harmful germs, viruses, and bacteria from the surface. It expertly removes meld, mildew, fungi, and all organic stains. It eliminates odor and spores by destroying the source. Safe and ideal for bathroom fittings, bathtubs, shower areas, tiles, floors, sinks, and grouts. It is ecologically safe to dispose of down the drains as enzymes will carry on breaking down organic matter.",
       "benefit": [
         "Safe and ideal for bathroom",
         "Kills 99.99% of Germs & bacteria",
@@ -487,7 +483,7 @@
     },
     "handwash_liquid": {
       "title": "Handwash Liquid",
-      "desc": "Complete range of liquid hand wash from Syfo is manufactured using floral extracts and natural color that very effectively removes germs and dirt. Our products are gentle on the skin, producing a deep cleansing and moisturizing effect. These are available in two flavors - floral and herbal. This wash is made using high-grade material and upgraded technology by our skilled workers.",
+      "desc": "Complete range of liquid hand wash from ASA is manufactured using floral extracts and natural color that very effectively removes germs and dirt. Our products are gentle on the skin, producing a deep cleansing and moisturizing effect. These are available in two flavors - floral and herbal. This wash is made using high-grade material and upgraded technology by our skilled workers.",
       "benefit": ["Deep cleaning", "pH balanced", "Eco-friendly"],
       "availability": ["250ML", "500 ML", "5 Ltr."],
       "image": [
@@ -503,7 +499,7 @@
     },
     "black": {
       "title": "Black Floor Cleaner",
-      "desc": "Syfo Black Floor cleaner contains a unique formulation that kills most of the germs and gives better germs protection than standard phenyls, keeping the whole house cleaners, shiners and germs free. Syfo Black floor cleaner saves you from harmful germs while keeping you and your family clean. Perfect for floors, tiles, sinks and all other washable surfaces.",
+      "desc": "ASA Black Floor cleaner contains a unique formulation that kills most of the germs and gives better germs protection than standard phenyls, keeping the whole house cleaners, shiners and germs free. ASA Black floor cleaner saves you from harmful germs while keeping you and your family clean. Perfect for floors, tiles, sinks and all other washable surfaces.",
       "benefit": [
         "Premium Grade Ingredients",
         "Non-Toxic",
@@ -517,7 +513,7 @@
       "availability": ["250ML", "500 ML", "5 Ltr."]
     },
     "power": {
-      "title": "Syfo Power",
+      "title": "ASA Power",
       "desc": "",
       "benefit": [
         "Premium Grade Ingredients",
