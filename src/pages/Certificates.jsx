@@ -13,7 +13,7 @@ export default function Certificates({ title, pdfContent, links }) {
               <PdfView {...pdfContent} className="w-[25%]" />
             </div>
           </div>
-          <div className="">
+          {/* <div className="">
             <span className="leading-[22px] font-[600] text-[20px] pb-1 border-b-2 border-black">GET YOUR BROCHURES</span>
             <div className="mt-4">
                 {links.map((link,index)=>{
@@ -27,7 +27,7 @@ export default function Certificates({ title, pdfContent, links }) {
                     </div>
                 })}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

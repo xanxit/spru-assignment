@@ -10,7 +10,7 @@ export default function Welcome(props) {
       <div id="imgContainer" className="px-[15px] md:max-w-[42%]">
         <div className="text-center hidden md:block">
           <img
-            src="images/pic11.jpg"
+            src="images/16.png"
             alt=""
             className=" h-auto mx-auto"
           />

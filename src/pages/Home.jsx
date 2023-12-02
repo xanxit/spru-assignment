@@ -17,7 +17,7 @@ export default function Home({ dataObject }) {
       <Hero data={dataObject.heroImages} />
       <Welcome data={dataObject.welcomeCard} />
       <Choose data={dataObject.chooseCard} />
-      <Products data={dataObject.productImages} />
+      {/* <Products data={dataObject.productImages} /> */}
       <Industry data={dataObject.industryCard} />
       <Testimonials data={dataObject.testCard} />
     </div>

@@ -244,7 +244,7 @@
     "pdfContent": [
       {
         "img": "images/portfolio.png",
-        "link": "product-portfolio.pdf"
+        "link": "/product-portfolio.pdf"
       }
     ]
   },
@@ -288,14 +288,10 @@
   "gallery": {
     "title": "Gallery",
     "images": [
-      "images/gallery/g-1.jpg",
-      "images/gallery/g-2.jpg",
-      "images/gallery/g-3.jpg",
-      "images/gallery/g-4.jpg",
-      "images/gallery/g-5.jpg",
-      "images/gallery/g-6.jpg",
-      "images/gallery/g-7.jpg",
-      "images/gallery/g-8.jpg"
+      "images/9.png",
+      "images/10.png",
+      "images/16.png",
+      "images/Temp. 7.png"
     ]
   },
   "productList": {
