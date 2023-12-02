@@ -19,7 +19,7 @@ export default function Home({ dataObject }) {
       <Choose data={dataObject.chooseCard} />
       {/* <Products data={dataObject.productImages} /> */}
       <Industry data={dataObject.industryCard} />
-      <Testimonials data={dataObject.testCard} />
+      {/* <Testimonials data={dataObject.testCard} /> */}
     </div>
   );
 }

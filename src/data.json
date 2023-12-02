@@ -251,8 +251,8 @@
   "certificates": {
     "title": "Certificates",
     "pdfContent": {
-      "img": "images/gallery/cert-1.jpg",
-      "link": "images/gallery/ASA.pdf"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png",
+      "link": "/Trademark.pdf"
     },
     "links": [
       {

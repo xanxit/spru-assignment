@@ -3,6 +3,10 @@ import PageHeader from "../components/PageHeader";
 import PdfView from "../components/PdfView";
 
 export default function Certificates({ title, pdfContent, links }) {
+  const pdfContent2= {
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png",
+    "link": "/gst certificate.pdf"
+  }
   return (
     <div>
       <PageHeader title={title} />
@@ -11,6 +15,7 @@ export default function Certificates({ title, pdfContent, links }) {
           <div>
             <div className="flex flex-row gap-[30px] mb-[50px]">
               <PdfView {...pdfContent} className="w-[25%]" />
+              <PdfView {...pdfContent2} className="w-[25%]" />
             </div>
           </div>
           {/* <div className="">
