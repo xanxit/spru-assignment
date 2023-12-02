@@ -52,7 +52,7 @@ export default function StickyNav(props) {
               </Link>
             </ul>
           </div>
-          <div className="relative group">
+          {/* <div className="relative group">
             <div className="font-[500] font-rubik text-[14px] md:text-[18px] m-[6px] px-[6px] py-[12px] cursor-pointer border-t-2 md:border-0 relative group">
               <div>PRODUCTS</div>
               <div className="invisible group-hover:visible absolute left-0 bottom-[-6px] lg:bg-yellow-400 h-[3px] w-full"></div>
@@ -68,7 +68,7 @@ export default function StickyNav(props) {
                 );
               })}
             </div>
-          </div>
+          </div> */}
           {props.links.slice(3).map((record, index) => {
             return (
               <Link to={`/${record.link}`} key={index}>
